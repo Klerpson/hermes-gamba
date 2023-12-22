@@ -98,6 +98,11 @@ img {
   display: block;
   border-radius: var(--radius);
   max-width: 100%;
+  transition: all .2s ease-out;
+}
+
+img:hover{
+  transform: scale(1.05);
 }
 
 small {
@@ -311,6 +316,8 @@ header img{
   box-shadow: var(--shadow);
   width: min(100%, 320px);
   border-radius: var(--radius);
+  overflow: hidden;
+
 }
 
 .puntos-dolor div p:not(.beneficios p) {

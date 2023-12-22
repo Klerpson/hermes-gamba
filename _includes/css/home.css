@@ -28,6 +28,8 @@
   box-shadow: var(--shadow);
   width: min(100%, 320px);
   border-radius: var(--radius);
+  overflow: hidden;
+
 }
 
 .puntos-dolor div p:not(.beneficios p) {
