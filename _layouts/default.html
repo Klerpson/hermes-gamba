@@ -1,0 +1,50 @@
+---
+layout: compress
+---
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  {{ content }}
+  <script>
+    const navToggle = document.querySelector(".hamburguer-menu");
+     const navMenu = document.querySelector(".nav");
+     const body = document.querySelector("body");
+       
+     navToggle.addEventListener("click", (e) => {
+       e.stopPropagation();
+       navMenu.classList.toggle("change");
+     
+       if (navMenu.classList.contains("change")) {
+         navToggle.setAttribute("aria-label", "Cerrar menú");
+       } else {
+         navToggle.setAttribute("aria-label", "Abrir menú");
+       }
+     });
+     
+     body.addEventListener("click", () => {
+       navMenu.classList.remove("change");
+     });
+  </script>
+
+  <script>
+    // Espera a que el contenido del DOM se cargue completamente
+    document.addEventListener('DOMContentLoaded', function () {
+      // Función para agregar o quitar la clase 'solid'
+      function toggleNavbarClass() {
+        var height = document.querySelector('.first-container').offsetHeight;
+        var scrollTop = window.scrollY;
+        if (scrollTop >= 1) {
+          document.querySelector('.nav-container').classList.add('solid');
+        } else {
+          document.querySelector('.nav-container').classList.remove('solid');
+        }
+      }
+  
+      // Agrega el evento 'scroll' al objeto window para llamar a la función toggleNavbarClass
+      window.addEventListener('scroll', toggleNavbarClass);
+    });
+  </script>
+  
+</body>
+</html>

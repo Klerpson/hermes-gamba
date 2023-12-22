@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    var(--blanco), var(--principal)
+    );
+}
+
+footer a,
+footer p {
+  display: inline-block;
+  font-family: var(--fuenteTitulos);
+}
+
+footer a {
+  color: var(--grisFuentes);
+  margin: 1rem .5rem;
+  font-weight: 700;
+}

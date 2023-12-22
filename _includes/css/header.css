@@ -1,0 +1,43 @@
+header{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+  height: 75dvh;
+}
+
+header > div{
+  flex: 1 0 400px;
+  max-width: 100%;
+}
+
+header h1{
+  text-transform: uppercase;
+  color: var(--principal);
+}
+
+header img{
+  -webkit-mask-image: url('/img/shape.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center bottom;
+  mask-image: url('/img/shape.svg');
+  mask-repeat: no-repeat;
+  mask-position: center bottom;
+  width: min(100%, 400px);
+  aspect-ratio: 1/1;
+}
+
+.top{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: -24px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: space-between;
+  color: var(--principal);
+  font-weight: bolder;
+}

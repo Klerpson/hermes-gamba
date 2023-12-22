@@ -1,0 +1,31 @@
+#search-container {
+  position: relative;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: var(--complemento2);
+}
+
+#search-container h3 {
+  margin-top: 1.2rem;
+}
+
+#search-container input {
+  padding: .7rem;
+  border-color: var(--principal);
+  border-radius: 7px;
+  box-shadow: var(--shadow);
+  justify-self: center;
+}
+
+#results-container div a {
+  font-family: var(--fuenteTexto);
+  color: var(--principal);
+}
+
+#results-container div span a {
+  text-transform: capitalize;
+  font-family: var(--fuenteTexto);
+  color: var(--secundario);
+}
