@@ -28,16 +28,3 @@ header img{
   width: min(100%, 400px);
   aspect-ratio: 1/1;
 }
-
-.top{
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  right: -24px;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  display: flex;
-  justify-content: space-between;
-  color: var(--principal);
-  font-weight: bolder;
-}
