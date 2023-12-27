@@ -202,7 +202,7 @@ hr {
 .wrapper {
   width: min((100% - 2rem), 1200px);
   margin-inline: auto;
-  padding: 3rem 0;
+  padding: 3em 0;
 }
 
 .flow>*+* {
