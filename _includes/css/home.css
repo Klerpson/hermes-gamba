@@ -13,7 +13,7 @@
 .puntos-dolor div {
   padding: 4em 0;
   display: grid;
-  gap: 1em;
+  gap: 2.2em;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
   place-items: center;
 }
