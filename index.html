@@ -121,6 +121,18 @@ description: Recupera el cuerpo que te encanta lucir. Conviértete en una hermos
 url="https://www.youtube.com/embed/u09eYr0IQF0?si=mYkAyfiUZkxMe7yS"
 title="Recuperé la atención de mi esposo" %}
 
+<div style="height: 150px; overflow: hidden">
+  <svg
+    viewBox="0 0 500 150"
+    preserveAspectRatio="none"
+    style="height: 100%; width: 100%"
+  >
+    <path
+      d="M0.00,49.98 C185.66,214.64 302.48,-40.94 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+      style="stroke: none; fill: var(--secundario)"
+    ></path>
+  </svg>
+</div>
 <section class="wrapper puntos-dolor">
   <h2>
     Haz tu operación de Mommy Makeover
@@ -212,9 +224,8 @@ title="Recuperé la atención de mi esposo" %}
   <p></p>
 </section>
 
-{% include team.html %} {% include testimonio.html
-url="https://www.youtube.com/embed/u09eYr0IQF0?si=mYkAyfiUZkxMe7yS" title="Ahora
-sí puedo utilizar la ropa que me gusta" %}
+{% include galeria.html %} 
+{% include testimonio.html url="https://www.youtube.com/embed/u09eYr0IQF0?si=mYkAyfiUZkxMe7yS" title="Ahora sí puedo utilizar la ropa que me gusta" %}
 
 <div class="faqs wrapper">
   <h2>
@@ -354,21 +365,3 @@ title="Siempre me sentí segura" %}
     <p>#pasionpormejorarvidas - Dr. Hermes Gamba</p>
   </div>
 </div>
-
-<script>
-  const items = document.querySelectorAll(".accordion button");
-
-  function toggleAccordion() {
-    const itemToggle = this.getAttribute("aria-expanded");
-
-    for (i = 0; i < items.length; i++) {
-      items[i].setAttribute("aria-expanded", "false");
-    }
-
-    if (itemToggle == "false") {
-      this.setAttribute("aria-expanded", "true");
-    }
-  }
-
-  items.forEach((item) => item.addEventListener("click", toggleAccordion));
-</script>
