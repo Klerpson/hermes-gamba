@@ -545,6 +545,7 @@ header img{
 
 .cta-final div{
   flex: 1 0 520px;
+  max-width: 100%;
 }
 
 .cta-final .header {
@@ -573,6 +574,10 @@ header img{
 .cta-final .testimonial p {
   color: white;
   text-align: center;
+}
+
+.cta-final div img{
+  max-width: 100%;
 }
 
 /*********Galeria********/
