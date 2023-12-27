@@ -651,6 +651,32 @@ header img{
   padding: 2em;
   margin: auto;
 }
+
+.video-face{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  background-color: var(--principal);
+  border-radius: var(--radius);
+}
+
+.video-face iframe{
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  vertical-align: middle;
+}
+
+.video-face h3{
+  width: min(100%, 280px);
+  background-color: white;
+  color: var(--principal);
+  padding: 2em;
+  border-radius: var(--radius);
+  display: grid;
+}
 #search-container {
   position: relative;
   padding: 0.5rem 1rem;
