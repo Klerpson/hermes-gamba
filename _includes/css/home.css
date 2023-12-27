@@ -295,7 +295,6 @@
 /*********Galeria********/
 .tiler {
   display: inline-block;
-  cursor: pointer;
   visibility: hidden;
   width: 33.3%;
   margin: auto;
@@ -366,7 +365,6 @@
 
 .video-face{
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -388,4 +386,6 @@
   padding: 2em;
   border-radius: var(--radius);
   display: grid;
+  font-family: var(--fuenteCitas);
+  font-size: 1.6em;
 }
