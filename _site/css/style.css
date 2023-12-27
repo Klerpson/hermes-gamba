@@ -15,8 +15,8 @@
   --radius: 8px;
 
   /*** FUENTES ***/
-  --fuenteTexto: 'Poppins', sans-serif;
-  --fuenteCitas: 'Tenor Sans', sans-serif;
+  --fuenteCitas: 'Poppins', sans-serif;
+  --fuenteTexto: 'Tenor Sans', sans-serif;
 }
 
 *,
