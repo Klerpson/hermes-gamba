@@ -694,6 +694,7 @@ header img{
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   width: min(100%, 320px);
+  object-fit: cover;
 }
 
 .video-face {
