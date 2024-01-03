@@ -107,55 +107,6 @@
   overflow: hidden;
 }
 
-.controls{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.7);
-  transform: translateY(100%) translateY(-6px);
-  transition: all .2s ease-out;
-}
-
-.c-video:hover .controls{
-  transform: translateY(0);
-}
-
-.buttons{
-  padding: 8px;
-}
-
-.buttons button{
-  background: none;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-}
-
-.buttons button::before{
-  content: url(/img/button-play.svg);
-}
-
-.buttons button.play::before{
-  content: url(/img/button-pause-2.svg);
-}
-
-.orange-bar{
-  height: 8px;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background-color: black;
-}
-
-.orange-juice{
-  height: 8px;
-  background-color: var(--accion);
-}
-
 .doctor ul {
   display: grid;
   gap: 4em 2em;
