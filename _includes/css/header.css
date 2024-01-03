@@ -5,7 +5,7 @@ header{
   gap: 2em;
   align-items: center;
   justify-content: center;
-  height: 75dvh;
+  height: 86dvh;
 }
 
 header > div{
@@ -21,10 +21,10 @@ header h1{
 header img{
   -webkit-mask-image: url('/img/shape.svg');
   -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center bottom;
+  -webkit-mask-position: center center;
   mask-image: url('/img/shape.svg');
   mask-repeat: no-repeat;
-  mask-position: center bottom;
-  width: min(100%, 400px);
-  aspect-ratio: 1/1;
+  mask-position: center center;
+  width: min(100%, 560px);
+  mask-size: contain;
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale-1, maximum-scale-1, minimal-ui">
+    content="width=device-width, initial-scale=1, minimal-ui">
   <title>{{ page.title}}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url}}">
   <link rel="alternate" type="application/rss+xml" title="{{page.title}}" href="{{ '/feed.xml' | relative_url}}">
@@ -54,9 +54,9 @@
   <meta property="article:updated_time" content="{{ page.date}}" >
   <meta property="og:description" content="{% if page.description %}{{ page.description}}{% else %}{{ page.title}}{% endif %}" >
   <!-- PRELOADS AND LINKS -->
-  <link rel="preload" href="{{site.baseurl}}/css/style.css">
+  <link rel="preload" href="{{site.baseurl}}/css/style.css" as="style">
   <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
-  <link rel="preload" href="{{site.baseurl}}/css/fonts/style-fonts.css">
+  <link rel="preload" href="{{site.baseurl}}/css/fonts/style-fonts.css" as="style">
   <link rel="stylesheet" href="{{site.baseurl}}/css/fonts/style-fonts.css">
   <link rel="preload" as="font" href="{{site.baseurl}}/css/fonts/tenor-sans-v19-latin-regular.woff2" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="{{site.baseurl}}/css/fonts/poppins-v20-latin-300.woff2" type="font/woff2" crossorigin>
