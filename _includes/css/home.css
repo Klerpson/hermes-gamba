@@ -337,11 +337,13 @@
 }
 
 /*********Galeria********/
-/* .tiler {
+.tiler {
   display: inline-block;
   visibility: hidden;
   width: 33.3%;
   margin: auto;
+  overflow: hidden;
+  max-height: 360px;
 }
 
 .tiler img {
@@ -349,6 +351,7 @@
   margin: auto;
   max-width: 100%;
   visibility: visible;
+  object-fit: cover;
 }
 
 .tiler .cell-grid {
@@ -389,12 +392,11 @@
 .tiler:hover .cell {
   transform: scale(1);
   opacity: 1;
-} */
+}
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
   width: min(100%, 1240px);
   padding: 2em;
   margin: auto;
@@ -406,6 +408,7 @@
   box-shadow: var(--shadow);
   width: min(100%, 320px);
   object-fit: cover;
+  margin: 1em;
 }
 
 .video-face {
