@@ -95,16 +95,17 @@
   margin: 3em 0;
 }
 
-.doctor .video video {
-  width: 100%;
-  box-shadow: var(--shadow);
-  border-radius: var(--radius);
-}
 
 .c-video{
   position: relative;
   width: 100%;
   overflow: hidden;
+}
+
+.c-video video {
+  width: 100%;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
 }
 
 .doctor ul {
