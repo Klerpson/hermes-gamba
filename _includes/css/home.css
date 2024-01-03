@@ -95,7 +95,6 @@
   margin: 3em 0;
 }
 
-
 .c-video{
   position: relative;
   width: 100%;
@@ -149,6 +148,8 @@
   border-radius: 50%;
   width: 120px;
   height: 120px;
+  z-index: 2;
+  object-fit: cover;
 }
 
 .testimonio {
