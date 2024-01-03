@@ -337,7 +337,7 @@
 }
 
 /*********Galeria********/
-.tiler {
+/* .tiler {
   display: inline-block;
   visibility: hidden;
   width: 33.3%;
@@ -373,15 +373,11 @@
   transition-property: transform, opacity;
   transition-duration: 0.5s, 0.4s;
   transition-timing-function: cubic-bezier(0.65, 0.01, 0.15, 1.33);
-  /* The center character index */
   --center-x: calc((var(--col-total) - 1) / 2);
   --center-y: calc((var(--row-total) - 1) / 2);
-  /* Offset from center, positive & negative */
   --offset-x: calc(var(--col-index) - var(--center-x));
   --offset-y: calc(var(--row-index) - var(--center-y));
-  /* Absolute distance from center, only positive */
   --distance-x: calc((var(--offset-x) * var(--offset-x)) / var(--center-x));
-  /* Absolute distance from center, only positive */
   --distance-y: calc((var(--offset-y) * var(--offset-y)) / var(--center-y));
   transition-delay: calc(0.1s * var(--distance-y) + 0.1s * var(--distance-x));
 }
@@ -393,14 +389,22 @@
 .tiler:hover .cell {
   transform: scale(1);
   opacity: 1;
-}
+} */
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  gap: 2em;
   width: min(100%, 1240px);
   padding: 2em;
   margin: auto;
+  justify-content: center;
+}
+
+.gallery video{
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  width: min(100%, 320px);
 }
 
 .video-face {
