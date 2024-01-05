@@ -3,22 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimal-ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
   <title>{{ page.title}}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url}}">
-  <link rel="alternate" type="application/rss+xml" title="{{page.title}}" href="{{ '/feed.xml' | relative_url}}">
-  {% if page.noindex %}
-  <meta name="robots" content="noindex, nofollow">
-  {% else %}
   <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" >
-  {% endif %}
   <!-- Codigo json para google en los articulos -->
-  {% if page.json %}
-  <script type="application/ld+json">
-    {{page.json}}
-  </script>
-  {% endif %}
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160}}{% else %}{{ site.description}}{% endif %}'>
   <meta name="language" content="es_CO" >
   <meta name="country" content="CO" >
