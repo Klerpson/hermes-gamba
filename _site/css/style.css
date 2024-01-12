@@ -725,6 +725,7 @@ header img{
   display: grid;
   font-family: var(--fuenteCitas);
   font-size: 1.6em;
+  margin: 0;
 }
 @media (max-width: 500px) { 
   .clientes div{

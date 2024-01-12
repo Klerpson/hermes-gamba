@@ -436,4 +436,5 @@
   display: grid;
   font-family: var(--fuenteCitas);
   font-size: 1.6em;
+  margin: 0;
 }
