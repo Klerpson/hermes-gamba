@@ -1,15 +1,13 @@
 baseurl: ''
 url: 'https://hermesgamba.com'
-name: Hermes Gamba
+name: 'Hermes Gamba'
 author: Hermes Gamba
-# email: info@enpitalito.com
-title: Haz tu cirugía Mommy Makeover con el doctor Hermes Gamba
 whatsapp: https://wa.me/573155786000
 telefono: tel://+573155786000
 
-permalink: :slug
-
 markdown: kramdown
+
+permalink: :slug
 
 keep_files: [/img]
 

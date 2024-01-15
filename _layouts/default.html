@@ -2,45 +2,24 @@
 layout: compress
 ---
 {% include head.html %}
-
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2DVS2W5"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  {% include header.html %}
-  {{ content }}
-  <script>
-    const items = document.querySelectorAll(".accordion button");
-  
-    function toggleAccordion() {
-      const itemToggle = this.getAttribute("aria-expanded");
-  
-      for (i = 0; i < items.length; i++) {
-        items[i].setAttribute("aria-expanded", "false");
-      }
-  
-      if (itemToggle == "false") {
-        this.setAttribute("aria-expanded", "true");
-      }
-    }
-  
-    items.forEach((item) => item.addEventListener("click", toggleAccordion));
-  
-    // Galeria☺
-    console.clear();
-  
-  Splitting({
-    target: '.tiler',
-    by: 'cells',
-    rows: 3,
-    columns: 3,
-    image: true
-  });
-  
-  </script>
-  <script type="text/javascript" src="/js/lightbox.js" async></script>
-  <link rel="stylesheet" href="/css/lightbox.css">
+  <body>
+    {{ content }}
+  <script src="./assets/js/vendors/jquery.min.js"></script>
+  <script src="./assets/js/vendors/bootstrap.min.js"></script>
+  <script src="./assets/js/vendors/enquire.min.js"></script>
+  <script src="./assets/js/vendors/jquery.enllax.min.js"></script>
+  <script src="./assets/js/vendors/jquery.form-validator.min.js"></script>
+  <script src="./assets/js/vendors/jquery.touchSwipe.min.js"></script>
+  <script src="./assets/js/vendors/jquery.youtubebackground.js"></script>
+  <script src="./assets/js/vendors/pace.min.js"></script>
+  <script src="./assets/js/vendors/slick.min.js"></script>
+  <script src="./assets/js/vendors/wow.min.js"></script>
+  <script src="./assets/js/vendors/jquery.navScroll.min.js"></script>
+  <script src="./assets/js/vendors/parallax.min.js"></script>
+  <script src="./assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="./assets/js/vendors/materialize.js"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+  <script src="./assets/js/scripts.js"></script>
 </body>
+
 </html>

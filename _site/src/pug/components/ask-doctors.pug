@@ -1,0 +1,78 @@
+-
+  var categories = [
+    "all",
+    "Orthopedic",
+    "Nutritionist",
+    "Pediatric",
+    "Anaesthestic"
+  ]
+
+  var doctorsData = [
+    {
+      avatar: imgAPI.medical[7],
+      name: 'Jena Doe',
+      title: 'Neurologists',
+      rating: 88,
+      exp: 4
+    },
+    {
+      avatar: imgAPI.medical[12],
+      name: 'John Doe',
+      title: 'Pediatricians ',
+      rating: 95,
+      exp: 12
+    },
+    {
+      avatar: imgAPI.medical[8],
+      name: 'Jihan Doe',
+      title: 'Dentist',
+      rating: 90,
+      exp: 9
+    },
+    {
+      avatar: imgAPI.medical[10],
+      name: 'James Doe',
+      title: 'Neurologists',
+      rating: 76,
+      exp: 20
+    },
+    {
+      avatar: imgAPI.medical[11],
+      name: 'Jim Doe',
+      title: 'Psychiatrists',
+      rating: 80,
+      exp: 4
+    },
+    {
+      avatar: imgAPI.medical[9],
+      name: 'Jessy Doe',
+      title: 'Psychiatrists',
+      rating: 90,
+      exp: 15
+    }
+  ]
+
+include cards/profile.pug
+
+.root
+  .deco
+  .container.fixed-width-md-up
+    .row.spacing6.justify-content-center
+      .col-md-2.col-sm-9.pa-0
+        .wow.fadeInLeftShort(data-offset="-100" data-delay="0.2s" data-duration="0.3s")
+          .side-filter
+            h4.title-primary.mt-10 #{$t.medical_landing.ask_doctors}
+            ul.collection.nav#case_categories
+              each item, index in categories
+                li.collection-item.filter(class=index === 1 && "active")
+                  a.waves-effect #{item}
+      .col-lg-9.col-md-10.pa-lg-6.py-0
+        .pa-6.py-0
+          .px-lg-8.px-3
+            h4.title-primary.mt-10 #{$t.medical_landing.ask_doctors}
+          .massonry
+            .row
+              each item, index in doctorsData
+                .col-sm-6.px-lg-8.px-3.py-3
+                  .wow.fadeInUpShort(data-wow-delay=(0.2*index) + "s" data-wow-duration="0.4s")
+                    +profile-card(item.avatar, item.name, item.title, item.rating, item.exp)

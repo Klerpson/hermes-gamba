@@ -1,191 +1,940 @@
 ---
 layout: default
-title: Haz tu cirugía Mommy Makeover con el cirujano Hermes Gamba
-description: Recupera el cuerpo que te encanta lucir. Conviértete en una hermosa mamá con el doctor cirujano Hermes Gamba, especialista en cirugía Mommy Makeover
 ---
-
-<div style="height: 120px; overflow: hidden">
-  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%"><path d="M0.00,49.98 C185.66,214.64 302.48,-40.94 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: var(--secundario)"></path></svg>
-</div>
-<section class="wrapper puntos-dolor">
-  <h2>Después de la hermosa experiencia de ser mamá, <span style="color: var(--principal)">quizá tu cuerpo está sufriendo estos cambios</span></h2>
-  <div>
-    <article>
-      <img src="{{'img/senos-caidos.webp'|relative_url}}" alt="Cirugía Mommy Makeover" />
-      <p>Senos sin volumen y caídos, o grandes y desproporcionados</p>
-    </article>
-    <article>
-      <img src="{{'img/abdomen-flacido.webp'|relative_url}}" alt="Cirugía Mommy Makeover" />
-      <p>Abdomen caído y flácido o con nuevos gorditos</p>
-    </article>
-    <article>
-      <img src="{{'img/lipoescultura.webp'|relative_url}}" alt="Cirugía Mommy Makeover"/>
-      <p>Piel de más en tu abdomén o con estrías que no desaparecen</p>
-    </article>
-  </div> <p>Todas son dificultades propias del embarazo. Pero no te preocupes. Todas y cada una de ellas <strong>tienen una solución definitiva.</strong></p>
-</section>
-
-<section class="doctor wrapper">
-  <img src="{{'img/doctor-hermes-gamba.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-  <div class="flow">
-    <h2>Devuelve a tu cuerpo su vitalidad y belleza con la cirugía MOMMY MAKEOVER</h2>
-    <p>Soy el doctor cirujano <strong>Hermes Gamba</strong>, graduado en la Universidad Uniboyaca de Tunja con Especialización en la Habana, Cuba. Desde hace <strong>más de 10 años vivo la pasión de mi profesión</strong>. Y hasta ahora <strong>más de 1000 personas han cambiado su vida</strong> en mi consultorio.</p>
-    <p>Hoy te ofrezco la renovación que necesitas con este práctico procedimiento conocido como "Mommy Makeover". Te explico en qué consiste:</p>
-  </div>
-  <div class="video">
-    <div class="c-video">
-      <video src="/img/presentacion.mp4" controls loading="lazy"></video>
-    </div>
-  </div>
-  <ul id="procedimientos">
-    <li>
-      <span>1.</span>
+  <div id="preloader" style="position: fixed; z-index: 10000; background: #fafafa; width: 100%; height: 100%"><img style="opacity: 0.5; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px)" src="./assets/images/loading.gif" alt="loading"></div>
+  <div class="m-application theme--light transition-page" id="app">
+    <div class="loading"></div>
+    <div class="m-content fresh fresh-var" id="main-wrap">
       <div>
-        <h4>Recupera tu abdomen y cintura</h4>
-        <p>Con la abdominoplastia vuelve a definir tu abdomen, tu cintura y tu ombligo con una figura atractiva y esbelta.</p>
-      </div>
-      <img src="{{'img/abdomen.webp'|relative_url}}" alt="" />
-    </li>
-    <li>
-      <span>2.</span>
-      <div>
-        <h4>Realza tus senos</h4>
-        <p>Practicando un levantamiento quirúrgico consigue la plenitud de tus senos. Aumenta o disminuye su tamaño según la simetría de tu cuerpo.</p>
-      </div>
-      <img src="{{'img/senos.webp'|relative_url}}" alt="" />
-    </li>
-    <li>
-      <span>3.</span>
-      <div>
-        <h4>Elimina la grasa adquirida</h4>
-        <p>Extrae la grasita que te dejaron tantos antojos y destaca con una cintura hermosa y atractiva.</p>
-      </div>
-      <img src="{{'img/cintura.webp'|relative_url}}" alt="" />
-    </li>
-    <li>
-      <span>4.</span>
-      <div>
-        <h4>Mejora la apariencia de tu zona íntima</h4>
-        <p>Haz que la forma, el tamaño y la función de tu vagina te haga sentir segura y hermosa en tu intimidad.</p>
-      </div>
-      <img src="{{'img/intima.webp'|relative_url}}" alt="" />
-    </li>
-  </ul>
-  {% include boton.html %}
-</section>
+        <div id="home"></div>
+        <div class="main-wrap">
+          <!-- ##### PARALLAX DOTS #####-->
+          <div class="parallax-dot-home">
+            <div class="parallax-wrap dots-wrap">
+              <div class="inner-parallax">
+                <div class="figure">
+                  <div>
+                    <div data-enllax-ratio="0.2" data-enllax-type="foreground">
+                      <img src="./assets/images/decoration/dot-deco.svg" alt="dot deco" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- ##### END PARALLAX DOTS #####-->
+          <!-- ##### HEADER #####-->
+          <!-- #### HEADER ####-->
+          <div class="sidenav mobile-nav" id="slide-menu">
+            <ul class="collection">
+              <li class="collection-item" style="animation-duration: 0.25s"><a class="sidenav-close waves-effect menu-list" href="#about">about</a></li>
+              <li class="collection-item" style="animation-duration: 0.5s"><a class="sidenav-close waves-effect menu-list" href="#facility">facilities</a></li>
+              <li class="collection-item" style="animation-duration: 0.75s"><a class="sidenav-close waves-effect menu-list" href="#ask-doctors">ask doctors</a></li>
+              <li class="collection-item" style="animation-duration: 1s"><a class="sidenav-close waves-effect menu-list" href="#clinics">clinics</a></li>
+              <li class="collection-item" style="animation-duration: 1s"><a class="waves-effect menu-list" href="contact.html">contact</a></li>
+            </ul>
+          </div><!-- #### END HEADER ####-->
+          <header class="app-bar header" id="header">
+            <div class="container">
+              <div class="header-content">
+                <nav class="nav-logo">
+                  <button class="mobile-menu btn-icon waves-effect hamburger hamburger--spin show-sm-down" id="mobile_menu" type="button">
+                    <span class="hamburger-box"><span class="bar hamburger-inner"></span></span>
+                  </button>
+                  <div class="logo scrollnav">
+                    <a href="#home"><img src="./assets/images/medical-logo.png" alt="logo" />Medical</a>
+                  </div>
+                </nav>
+                <nav class="nav-menu">
+                  <div class="scrollactive-nav show-md-up scrollnav">
+                    <ul>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="#about">about</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="#facility">facilities</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="#ask-doctors">ask doctors</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="#clinics">clinics</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="contact.html">contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu-setting">
+                    <div class="setting">
+                      <button class="btn btn-icon waves-effect btn-small m-2 dropdown-trigger" data-target="dropdown_config" type="button" data-align="left">
+                        <i class="icon material-icons" id="setting_icon">settings</i>
+                      </button>
+                      <div class="dropdown-content" id="dropdown_config">
+                        <ul class="collection with-header">
+                          <li class="collection-header">theme mode</li>
+                          <li class="collection-item no-hover pl-4">
+                            <div class="flex-menu">
+                              <div class="switch">
+                                <label>light<input id="theme_switcher" type="checkbox"><span class="lever"></span>dark</label>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="collection with-header lang-menu" id="lang_menu">
+                          <li class="collection-header">language</li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="ar" href="#">
+                              <div class="flag circle"><i class="ar"></i></div>
+                              <span class="content lang-opt text-truncate">󠁥󠁮󠁧󠁿العربيّة</span>
+                            </a>
+                          </li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="de" href="#">
+                              <div class="flag circle"><i class="de"></i></div>
+                              <span class="content lang-opt text-truncate">Deutsch</span>
+                            </a>
+                          </li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="en" href="#">
+                              <div class="flag circle"><i class="en"></i></div>
+                              <span class="content lang-opt text-truncate">English</span>
+                            </a>
+                          </li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="id" href="#">
+                              <div class="flag circle"><i class="id"></i></div>
+                              <span class="content lang-opt text-truncate">󠁥󠁮󠁧󠁿Bahasa Indonesia</span>
+                            </a>
+                          </li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="pt" href="#">
+                              <div class="flag circle"><i class="pt"></i></div>
+                              <span class="content lang-opt text-truncate">󠁥󠁮󠁧󠁿Português</span>
+                            </a>
+                          </li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="zh" href="#">
+                              <div class="flag circle"><i class="zh"></i></div>
+                              <span class="content lang-opt text-truncate">简体中文</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <!-- ##### END HEADER #####-->
+          <main class="container-wrap">
+            <!-- ##### PARALLAX OVAL #####-->
+            <div class="parallax-wrap">
+              <div>
+                <div class="inner-parallax about">
+                  <div class="figure">
+                    <div>
+                      <div data-enllax-ratio="-0.15" data-enllax-type="foreground">
+                        <div class="parallax-oval parallax-primary"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- ##### END PARALLAX OVAL #####-->
+            <!-- ##### BANNER #####-->
+            <section id="banner">
+              <div class="hero-content">
+                <div class="hidden-sm-up">
+                  <figure class="mobile-cover">
+                    <img src="https://via.placeholder.com/570x562/1071ef/FFFFFF" alt="cover">
+                  </figure>
+                </div>
+                <div class="container mq-lg-up" data-class="fixed-width">
+                  <div class="row">
+                    <div class="col-md-6 px-0">
+                      <div class="banner-text">
+                        <div class="title">
+                          <h3 class="text-helper use-text-title">Online Medical Care</h3>
+                        </div>
+                        <h5 class="subtitle use-text-subtitle2">Get a diagnosis, treatment plan, and prescription from original provider of quality medical care.</h5>
+                        <div class="card search">
+                          <div class="input-field primary search">
+                            <input id="search" type="text" name="search" />
+                            <label class="show-sm-up" for="search">Search doctor, medicines or clinic...</label><label class="show-xs-down" for="search">Search...</label>
+                          </div>
+                          <div class="action">
+                            <button class="waves-effect btn secondary button">
+                              <i class="material-icons icon show-sm-down">search</i><span class="show-md-up">search</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 pa-6 show-sm-up">
+                      <div class="deco-banner">
+                        <div class="menu-bg"></div>
+                        <div class="video-bg"></div>
+                      </div>
+                      <div class="video-wrap">
+                        <div class="video-figure">
+                          <div class="inner-figure">
+                            <div class="hidden-sm-down">
+                              <button class="btn-play btn-floating waves-effect hide" id="btn_play">
+                                <i class="material-icons play">play_arrow</i>
+                                <i class="material-icons pause">pause</i>
+                              </button>
+                            </div>
+                            <img class="show-md-down" src="https://via.placeholder.com/570x562/1071ef/FFFFFF" alt="cover" />
+                            <img class="hidden-md-down" id="banner_cover" src="https://via.placeholder.com/570x562/1071ef/FFFFFF" alt="cover" />
+                            <div class="video">
+                              <div class="show-lg-up" id="youtube"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="parallax-banner">
+                        <div class="parallax-wrap dots-wrap">
+                          <div class="inner-parallax">
+                            <div class="figure">
+                              <div>
+                                <div data-enllax-ratio="0.2" data-enllax-type="foreground">
+                                  <img src="./assets/images/decoration/dot-deco.svg" alt="dot deco" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END BANNER #####-->
+            <!-- ##### ABOUT #####-->
+            <section class="space-top-short is-md" id="about">
+              <div class="root">
+                <div class="container fixed-width">
+                  <div class="row">
+                    <div class="col-md-5 py-md-6 px-sm-6 px-0">
+                      <div class="text-center">
+                        <div>
+                          <div class="title-deco">
+                            <h3 class="bg-img" style="background-image: url(https://via.placeholder.com/1280x825/99d8ff/FFFFFF)">
+                              <span>About us</span>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-7 pa-6">
+                      <h4 class="title-default use-text-subtitle">Visit us at any time for diagnosis and treatment with our 24/7 online clinic.</h4>
+                      <div class="counter-wrap">
+                        <div class="container fixed-width">
+                          <div class="row justify-content-center align-items-center">
+                            <div class="col ma-sm-0 my-4">
+                              <div class="counter-item deco">
+                                <div class="text">
+                                  <h3>+200</h3>
+                                  <p>clinics</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col ma-sm-0 my-4">
+                              <div class="counter-item deco">
+                                <div class="text">
+                                  <h3>+450</h3>
+                                  <p>doctors</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col ma-sm-0 my-4">
+                              <div class="counter-item">
+                                <div class="text">
+                                  <h2>24</h2>
+                                  <p>hours open</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <blockquote>Save time and money. Receive quality care, every time</blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END ABOUT #####-->
+            <!-- ##### FACILITIES #####-->
+            <section class="space-top" id="facility">
+              <div class="root">
+                <div class="carousel-handle">
+                  <div class="carousel-wrap">
+                    <div class="carousel">
+                      <div class="slick-carousel" id="services_carousel" data-length="6">
+                        <div class="item show-lg-up">
+                          <div class="carousel-prop">
+                            <div></div>
+                          </div>
+                        </div>
+                        <div class="item show-lg-up">
+                          <div class="carousel-prop">
+                            <div></div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="https://via.placeholder.com/490x327/ffc999/FFFFFF" alt="img" /></figure>
+                            <div class="text">
+                              <h6 class="title">Lab and Blood Test </h6>
+                              <p>We perform a wide range of biological examinations to meet client’s expectations.</p>
+                            </div>
+                            <a class="btn waves-effect block secondary button" href="#">see detail</a>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="https://via.placeholder.com/490x327/ffc999/FFFFFF" alt="img" /></figure>
+                            <div class="text">
+                              <h6 class="title">Radiology </h6>
+                              <p>We provide comprehensive diagnostic imaging services.</p>
+                            </div>
+                            <a class="btn waves-effect block secondary button" href="#">see detail</a>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="https://via.placeholder.com/490x327/ffc999/FFFFFF" alt="img" /></figure>
+                            <div class="text">
+                              <h6 class="title">Ultrasound </h6>
+                              <p>We offers a complete panel of testing, including OB/GYN, general, and ultrasound</p>
+                            </div>
+                            <a class="btn waves-effect block secondary button" href="#">see detail</a>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="https://via.placeholder.com/490x327/ffc999/FFFFFF" alt="img" /></figure>
+                            <div class="text">
+                              <h6 class="title">Spirometry </h6>
+                              <p>We provide spirometry tests to diagnose asthma.</p>
+                            </div>
+                            <a class="btn waves-effect block secondary button" href="#">see detail</a>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="https://via.placeholder.com/490x327/ffc999/FFFFFF" alt="img" /></figure>
+                            <div class="text">
+                              <h6 class="title">Electrocardiography </h6>
+                              <p>One of the service we provide is an electrocardiography.</p>
+                            </div>
+                            <a class="btn waves-effect block secondary button" href="#">see detail</a>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="https://via.placeholder.com/490x327/ffc999/FFFFFF" alt="img" /></figure>
+                            <div class="text">
+                              <h6 class="title">Treadmill </h6>
+                              <p>The test includes a complete physical exam.</p>
+                            </div>
+                            <a class="btn waves-effect block secondary button" href="#">see detail</a>
+                          </div>
+                        </div>
+                        <div class="item show-lg-up">
+                          <div class="carousel-prop">
+                            <div></div>
+                          </div>
+                        </div>
+                        <div class="item show-lg-up">
+                          <div class="carousel-prop">
+                            <div></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="floating-title">
+                  <div class="container fixed-width">
+                    <div class="title">
+                      <div class="title-icon-deco">
+                        <div class="capsul"></div>
+                        <div class="circle"></div>
+                        <i class="material-icons icon">library_add</i>
+                        <h3>Our Facilities</h3>
+                      </div>
+                      <nav class="arrow">
+                        <button class="btn-floating margin waves-effect" id="next_services"><i class="material-icons">arrow_back</i></button>
+                        <button class="btn-floating margin waves-effect" id="prev_services"><i class="material-icons">arrow_forward</i></button>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END FACILITIES #####-->
+            <!-- ##### EXPERTISE #####-->
+            <section class="space-top is-md" id="our-expertise">
+              <div class="root">
+                <div class="container">
+                  <div class="row spacing8">
+                    <div class="col-lg-1 show-lg-up"></div>
+                    <div class="col-md-5 text-center text-lg-start">
+                      <div class="title-deco">
+                        <div class="decoration show-lg-up"></div>
+                        <div>
+                          <div class="title-deco">
+                            <h3 style="background-image: url()">
+                              <span>Our Speciality</span>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wow parallax-scene zoomInShort" data-wow-offset="-100" data-wow-delay="0.1s" data-wow-duration="0.3s">
+                        <div class="parallax-scene">
+                          <div id="scene">
+                            <div data-depth="0.15"><span class="icon-green"></span></div>
+                            <div data-depth="0.1"><span class="icon-red"></span></div>
+                            <div data-depth="0.3"><span class="icon-blue"></span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7">
+                      <h4 class="title-default use-text-subtitle">The doctors at The Online Clinic are all registered on the General Medical Council.</h4>
+                      <p class="desc use-text-paragraph">Our customer service team is always available to listen and help. If you aren't satisfied, for any reason, we'll refund your cost. Because we believe happiness is a big part of good health.</p>
+                      <div class="hidden-xs-down">
+                        <div class="running-tag">
+                          <div class="slick-carousel" id="expertise_carousel">
+                            <div class="tag-group">
+                              <span class="tag-item">Dentist</span>
 
-<section class="wrapper doctor">
-</section>
+                              <span class="tag-item">Padriatic</span>
 
-{% include testimonio-face.html url="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1295073767884977%2F&show_text=false&width=267&t=0" width="276" height="487" title="1️⃣ Doctor Hermes muchísimas gracias por el cambio que hiciste en mi. <br> 2️⃣ Me permitió volver a nacer, renovarme." %}
+                              <span class="tag-item">Cardiology</span>
+                            </div>
+                            <div class="tag-group">
+                              <span class="tag-item">Othopaedi</span>
 
-<div style="height: 120px; overflow: hidden">
-  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%" >
-    <path d="M0.00,49.98 C185.66,214.64 302.48,-40.94 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-      style="stroke: none; fill: var(--secundario)" ></path>
-  </svg>
-</div>
-<section class="wrapper puntos-dolor">
-  <h2> Haz tu operación de Mommy Makeover <span style="color: var(--principal)">sin ningún temor</span> de que algo salga mal </h2>
-  <div>
-    <div class="beneficios"> <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="0 0 14 14" > <g stroke="#284677" stroke-linecap="round" stroke-linejoin="round"> <path d="M9.625 4.27a1.738 1.738 0 1 0 3.388.776 1.738 1.738 0 1 0-3.388-.776M1.74 1.656H.645V5.25a3.219 3.219 0 0 0 3.218 3.219v0A3.219 3.219 0 0 0 7.083 5.25V1.656H5.989" /> <path d="M3.927 8.5v1.208a3.698 3.698 0 0 0 3.698 3.698v0a3.698 3.698 0 0 0 3.699-3.698V6.594" /> </g>
-      </svg>
-      <p>Obtén seguridad y confianza al <strong>estar en las manos de un cirujano experimentado y bien recomendado.</strong></p>
-    </div>
-    <div class="beneficios">
-      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="-2 -2 80 80" > <g stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" > <path d="M61.234 50.703a10.374 10.374 0 0 0 2.388-11.61 10.374 10.374 0 0 0-2.388-3.427 11.237 11.237 0 0 0-15.471 0L38 43.429l-7.763-7.763a11.237 11.237 0 0 0-15.471 0 10.368 10.368 0 0 0 0 15.037L38 73.286l23.234-22.583ZM38 24.429c5.996 0 10.857-4.861 10.857-10.858S43.997 2.714 38 2.714 27.143 7.575 27.143 13.571 32.003 24.43 38 24.43Z" /> </g> </svg>
-      <p>Te acompaño desde el comienzo de tu proceso hasta <strong>cumplir tu deseo de ser una mamá hermosa y esbelta.</strong></p>
-    </div>
-    <div class="beneficios">
-      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="-2 -2 80 80" > <g stroke="#284677" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" > <path d="M18.894 57.178a6.196 6.196 0 1 0 0-12.392 6.196 6.196 0 0 0 0 12.392ZM7.736 73.17c.02-1.89.518-3.742 1.448-5.387 1.96-3.465 5.725-5.665 9.705-5.674 3.98.01 7.744 2.21 9.704 5.674a11.178 11.178 0 0 1 1.449 5.387M57.138 57.178a6.196 6.196 0 1 0 0-12.392 6.196 6.196 0 0 0 0 12.392ZM45.98 73.17c.02-1.89.518-3.742 1.448-5.387 1.96-3.465 5.725-5.665 9.704-5.674 3.98.01 7.745 2.21 9.705 5.674a11.173 11.173 0 0 1 1.448 5.387M37.995 21.97a5.784 5.784 0 1 0 0-11.567 5.784 5.784 0 0 0 0 11.567ZM27.185 36.47c.02-1.831.502-3.628 1.404-5.222 1.9-3.36 5.55-5.494 9.41-5.502 3.86.008 7.51 2.142 9.41 5.502a10.838 10.838 0 0 1 1.404 5.223" /> <path d="M63.958 2.958H12.042a3.899 3.899 0 0 0-3.9 3.9V32.57a3.899 3.899 0 0 0 3.9 3.9h51.916a3.899 3.899 0 0 0 3.9-3.9V6.857a3.9 3.9 0 0 0-3.9-3.899Z" /> </g> </svg>
-      <p><strong>Haz tu Mommy Makeover con mi equipo</strong> de profesionales. Tenemos años de experiencia mejorando vidas.</p>
-    </div>
-    <div class="beneficios">
-      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="-2.5 -2.5 80 80"><g stroke="#fff" stroke-width="5"><path d="M37.5 20.313V37.5L25 46.875"/><path d="M54.688 63.603A31.222 31.222 0 0 0 68.75 37.5c0-17.26-13.99-31.25-31.25-31.25S6.25 20.24 6.25 37.5 20.24 68.75 37.5 68.75c2.14 0 4.231-.216 6.25-.625"/><path d="M67.188 64.063h-12.5v-12.5"/></g></svg>
-      <p>Por nuestra experiencia, <strong>en un tiempo promedio de solo 2 horas</strong> tu intervención estará lista.</p>
-    </div>
-    <div class="beneficios">
-      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="-2.855 -2.855 80 80"><g stroke="#284677" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.71"><path d="M66.33 2.653H7.96A5.306 5.306 0 0 0 2.653 7.96v58.37a5.306 5.306 0 0 0 5.307 5.307h58.37a5.306 5.306 0 0 0 5.307-5.307V7.96a5.306 5.306 0 0 0-5.307-5.307ZM26.532 23.879V50.41M47.758 23.879V50.41M26.532 37.145h21.226"/></g></svg>
-      <p>Ven con la tranquilidad de recuperarte pronto. <strong>Tu operación no necesita hospitalización.</strong></p>
-    </div>
-    <div class="beneficios">
-      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="-2.855 -2.855 80 80"><g stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.71"><path d="M37.145 71.637c19.05 0 34.492-15.442 34.492-34.492 0-19.05-15.442-34.492-34.492-34.492-19.05 0-34.492 15.443-34.492 34.492 0 19.05 15.443 34.492 34.492 34.492Z"/><path d="M25.206 26.532a1.327 1.327 0 0 1 0-2.653M25.206 26.532a1.327 1.327 0 0 0 0-2.653M49.084 26.532a1.327 1.327 0 0 1 0-2.653M49.084 26.532a1.327 1.327 0 0 0 0-2.653M37.145 58.37c10.257 0 18.573-8.314 18.573-18.572H18.572c0 10.258 8.316 18.573 18.573 18.573Z"/></g></svg>
-      <p>En solo <strong>5 a 15 días ya estarás recuperada</strong> y habrás terminado tu incapacidad. <span style="color: white; font-weight: 700;">¡A disfrutar tu nueva vida!</span></p>
-    </div>
-  </div>
-  <p></p>
-</section>
+                              <span class="tag-item">Traumatologi</span>
 
-{% include galeria.html %} 
+                              <span class="tag-item">Anestesiologi</span>
+                            </div>
+                            <div class="tag-group">
+                              <span class="tag-item">Reumatologi</span>
 
+                              <span class="tag-item">Andrologi</span>
 
-<div class="faqs wrapper">
-  <h2>Resolvamos tus dudas antes de tomar tu decisión de hacer tu Mommy Makeover</h2>
-  <div class="accordion">
-    <div class="accordion-item">
-      <button id="accordion-button-1" aria-expanded="false">
-        <b class="accordion-title">¿En qué consiste la operación del Mommy Makeover?</b><span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p>La operación Mommy Makeover es como un <a href="#procedimientos">conjunto de tratamientos</a> que seleccionas según las necesidades de tu cuerpo. Escoges entre opciones como <strong>abdominoplastia</strong>, <strong>aumento o levantamiento de senos (mamoplatia)</strong>, <strong>liposucción</strong> o <strong>vaginoplastia</strong>. Ten presente que la combinación exacta de procedimientos varía según tus necesidades y deseos, y de acuerdo a la discusión detallada con un cirujano plástico calificado como el <strong><a href="#contacto">doctor Hermes Gamba</a></strong></p>
+                              <span class="tag-item">Ortodonsia</span>
+                            </div>
+                            <div class="tag-group">
+                              <span class="tag-item">Dentist</span>
+
+                              <span class="tag-item">Padriatic</span>
+
+                              <span class="tag-item">Cardiology</span>
+                            </div>
+                            <div class="tag-group">
+                              <span class="tag-item">Othopaedi</span>
+
+                              <span class="tag-item">Traumatologi</span>
+
+                              <span class="tag-item">Anestesiologi</span>
+                            </div>
+                            <div class="tag-group">
+                              <span class="tag-item">Reumatologi</span>
+
+                              <span class="tag-item">Andrologi</span>
+
+                              <span class="tag-item">Ortodonsia</span>
+                            </div>
+                            <div class="tag-group">
+                              <span class="tag-item">Dentist</span>
+
+                              <span class="tag-item">Padriatic</span>
+
+                              <span class="tag-item">Cardiology</span>
+                            </div>
+                            <div class="tag-group">
+                              <span class="tag-item">Othopaedi</span>
+
+                              <span class="tag-item">Traumatologi</span>
+
+                              <span class="tag-item">Anestesiologi</span>
+                            </div>
+                            <div class="tag-group">
+                              <span class="tag-item">Reumatologi</span>
+
+                              <span class="tag-item">Andrologi</span>
+
+                              <span class="tag-item">Ortodonsia</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END EXPERTISE #####-->
+            <!-- ##### ASK DOCTORS #####-->
+            <section class="space-top is-xs" id="ask-doctors">
+              <div class="root">
+                <div class="deco"></div>
+                <div class="container fixed-width-md-up">
+                  <div class="row spacing6 justify-content-center">
+                    <div class="col-md-2 col-sm-9 pa-0">
+                      <div class="wow fadeInLeftShort" data-offset="-100" data-delay="0.2s" data-duration="0.3s">
+                        <div class="side-filter">
+                          <h4 class="title-primary mt-10">Ask Doctors</h4>
+                          <ul class="collection nav" id="case_categories">
+                            <li class="collection-item filter"><a class="waves-effect">all</a></li>
+                            <li class="collection-item filter active"><a class="waves-effect">Orthopedic</a></li>
+                            <li class="collection-item filter"><a class="waves-effect">Nutritionist</a></li>
+                            <li class="collection-item filter"><a class="waves-effect">Pediatric</a></li>
+                            <li class="collection-item filter"><a class="waves-effect">Anaesthestic</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-md-10 pa-lg-6 py-0">
+                      <div class="pa-6 py-0">
+                        <div class="px-lg-8 px-3">
+                          <h4 class="title-primary mt-10">Ask Doctors</h4>
+                        </div>
+                        <div class="massonry">
+                          <div class="row">
+                            <div class="col-sm-6 px-lg-8 px-3 py-3">
+                              <div class="wow fadeInUpShort" data-wow-delay="0s" data-wow-duration="0.4s">
+                                <div class="card profile">
+                                  <div class="person">
+                                    <div class="avatar-img avatar"><img src="https://avatars.dicebear.com/api/avataaars/qwert.svg" alt="Jena Doe" /></div>
+                                    <div class="name">
+                                      <h4>dr.Jena Doe</h4>
+                                      <p>Neurologists</p>
+                                    </div>
+                                  </div>
+                                  <hr class="divider" />
+                                  <div class="action">
+                                    <div class="property">
+                                      <span><i class="ion-thumbsup"></i>&nbsp; 88%</span><span><i class="ion-briefcase"></i>&nbsp; 4 Years</span>
+                                    </div>
+                                    <a class="btn secondary waves-effect" href="/contact.html">contact</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 px-lg-8 px-3 py-3">
+                              <div class="wow fadeInUpShort" data-wow-delay="0.2s" data-wow-duration="0.4s">
+                                <div class="card profile">
+                                  <div class="person">
+                                    <div class="avatar-img avatar"><img src="https://avatars.dicebear.com/api/avataaars/as.svg" alt="John Doe" /></div>
+                                    <div class="name">
+                                      <h4>dr.John Doe</h4>
+                                      <p>Pediatricians </p>
+                                    </div>
+                                  </div>
+                                  <hr class="divider" />
+                                  <div class="action">
+                                    <div class="property">
+                                      <span><i class="ion-thumbsup"></i>&nbsp; 95%</span><span><i class="ion-briefcase"></i>&nbsp; 12 Years</span>
+                                    </div>
+                                    <a class="btn secondary waves-effect" href="/contact.html">contact</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 px-lg-8 px-3 py-3">
+                              <div class="wow fadeInUpShort" data-wow-delay="0.4s" data-wow-duration="0.4s">
+                                <div class="card profile">
+                                  <div class="person">
+                                    <div class="avatar-img avatar"><img src="https://avatars.dicebear.com/api/avataaars/qwert.svg" alt="Jihan Doe" /></div>
+                                    <div class="name">
+                                      <h4>dr.Jihan Doe</h4>
+                                      <p>Dentist</p>
+                                    </div>
+                                  </div>
+                                  <hr class="divider" />
+                                  <div class="action">
+                                    <div class="property">
+                                      <span><i class="ion-thumbsup"></i>&nbsp; 90%</span><span><i class="ion-briefcase"></i>&nbsp; 9 Years</span>
+                                    </div>
+                                    <a class="btn secondary waves-effect" href="/contact.html">contact</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 px-lg-8 px-3 py-3">
+                              <div class="wow fadeInUpShort" data-wow-delay="0.6000000000000001s" data-wow-duration="0.4s">
+                                <div class="card profile">
+                                  <div class="person">
+                                    <div class="avatar-img avatar"><img src="https://avatars.dicebear.com/api/avataaars/as.svg" alt="James Doe" /></div>
+                                    <div class="name">
+                                      <h4>dr.James Doe</h4>
+                                      <p>Neurologists</p>
+                                    </div>
+                                  </div>
+                                  <hr class="divider" />
+                                  <div class="action">
+                                    <div class="property">
+                                      <span><i class="ion-thumbsup"></i>&nbsp; 76%</span><span><i class="ion-briefcase"></i>&nbsp; 20 Years</span>
+                                    </div>
+                                    <a class="btn secondary waves-effect" href="/contact.html">contact</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 px-lg-8 px-3 py-3">
+                              <div class="wow fadeInUpShort" data-wow-delay="0.8s" data-wow-duration="0.4s">
+                                <div class="card profile">
+                                  <div class="person">
+                                    <div class="avatar-img avatar"><img src="https://avatars.dicebear.com/api/avataaars/as.svg" alt="Jim Doe" /></div>
+                                    <div class="name">
+                                      <h4>dr.Jim Doe</h4>
+                                      <p>Psychiatrists</p>
+                                    </div>
+                                  </div>
+                                  <hr class="divider" />
+                                  <div class="action">
+                                    <div class="property">
+                                      <span><i class="ion-thumbsup"></i>&nbsp; 80%</span><span><i class="ion-briefcase"></i>&nbsp; 4 Years</span>
+                                    </div>
+                                    <a class="btn secondary waves-effect" href="/contact.html">contact</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 px-lg-8 px-3 py-3">
+                              <div class="wow fadeInUpShort" data-wow-delay="1s" data-wow-duration="0.4s">
+                                <div class="card profile">
+                                  <div class="person">
+                                    <div class="avatar-img avatar"><img src="https://avatars.dicebear.com/api/avataaars/qwert.svg" alt="Jessy Doe" /></div>
+                                    <div class="name">
+                                      <h4>dr.Jessy Doe</h4>
+                                      <p>Psychiatrists</p>
+                                    </div>
+                                  </div>
+                                  <hr class="divider" />
+                                  <div class="action">
+                                    <div class="property">
+                                      <span><i class="ion-thumbsup"></i>&nbsp; 90%</span><span><i class="ion-briefcase"></i>&nbsp; 15 Years</span>
+                                    </div>
+                                    <a class="btn secondary waves-effect" href="/contact.html">contact</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END ASK DOCTORS #####-->
+            <section class="space-top-short" id="testimonials">
+              <div class="root">
+                <div class="carousel">
+                  <div class="slick-carousel" id="testimonial_carousel" data-length="9">
+                    <div class="item show-lg-up">
+                      <div class="item-props-first"></div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>Very usefull that everyone can ask anything about your health.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Jim Deo</h6><span class="caption">Athlete</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/qwert.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>It helps people to have a consultation with Specialist in an easy and less expensive way.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon-disable" title="1">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Joana Deo</h6><span class="caption">Housewife</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/as.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>Super, consultation with doctor and they sent the medicine within 1-2 hours.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon-disable" title="1">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Jiji Deo</h6><span class="caption">Profesional</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/as.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>I tried to consult with one of the doctor and it was a seamless experience, it was so easy, no time to waste.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon-disable" title="1">star</i><i class="material-icons star-icon-disable" title="2">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Juveni Deo</h6><span class="caption">Profesional</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/as.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>Great experience, very convenient and fast delivery! A consultation and prescription delivery less than an hour.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Jian Deo</h6><span class="caption">Housewife</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/as.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>It really helps. So from now on you dont have to search all over place for a medicine.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Jovi Deo</h6><span class="caption">Profesional</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/qwert.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>This apps really helpfull during pandemic.. very easy to used!!.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon-disable" title="1">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Jaiz Deo</h6><span class="caption">Carpenter</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/qwert.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>Great medical store, user friendly and easy to use. And currently have doctors prescription.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Jojon Deo</h6><span class="caption">Athlete</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/qwert.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="testi-card">
+                        <div class="card paper">
+                          <p>Easy for doctors consulting, find a drug store, looking for vaccine schedule, buying multivitamin.</p>
+                          <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon-disable" title="1">star</i></div>
+                        </div>
+                        <div class="person">
+                          <div class="name">
+                            <h6>Jisha Doe</h6><span class="caption">Student</span>
+                          </div>
+                          <div class="avatar-img avatar">
+                            <img src="https://avatars.dicebear.com/api/avataaars/as.svg" alt="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item show-lg-up">
+                      <div class="item-props-last"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="floating-title">
+                  <div class="container fixed-width">
+                    <div class="title">
+                      <div class="title-icon-deco">
+                        <div class="capsul"></div>
+                        <div class="circle"></div>
+                        <i class="material-icons icon">format_quote</i>
+                        <h3>people testimonials</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### CALL ACTION #####-->
+            <section class="space-top-short" id="call-to-action">
+              <div class="container fixed-width-md-up">
+                <div class="root">
+                  <div class="card paper">
+                    <div class="row align-items-center mb-0">
+                      <div class="col-md-8 pa-0">
+                        <h4 class="display-1 pb-2">Ready to get started?</h4>
+                        <p>No waiting rooms. We make it simple to get healthcare whenever and wherever you want</p>
+                      </div>
+                      <div class="col-md-4 pa-0">
+                        <div class="d-flex align-items-center justify-content-end">
+                          <a class="waves-effect btn primary button" href="contact.html">Create Appointment Now!</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END CALL ACTION #####-->
+            <!-- ##### CLINICS #####-->
+            <section class="space-top-short" id="clinics">
+              <div class="root">
+                <div class="parallax-bottom">
+                  <div class="parallax-wrap">
+                    <div>
+                      <div class="inner-parallax">
+                        <div class="figure">
+                          <div>
+                            <div data-enllax-ratio="-0.15" data-enllax-type="foreground">
+                              <div class="parallax-oval parallax-primary"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container fixed-width">
+                  <div class="row spacing6">
+                    <div class="col-lg-1 pa-6 show-lg-up"></div>
+                    <div class="col-lg-5 col-md-6 pa-6">
+                      <h4 class="title-primary mt-10">Our Clinics</h4>
+                      <div class="block">
+                        <div>
+                          <div class="wow fadeInLeftShort" data-wow-offset="-50" data-wow-delay="0s" data-duration="0.3s">
+                            <div class="address-card">
+                              <div class="paper">
+                                <h6 class="title">Central Clinic</h6>
+                                <div class="row">
+                                  <div class="col-md-6 pa-0"><i class="material-icons icon">phone</i>+123 456 78 91</div>
+                                  <div class="col-md-6 pa-0"><i class="material-icons icon">email</i>info@example.com</div>
+                                  <div class="col-sm-12 pa-0"><i class="material-icons icon">location_on</i>Lorem ipsum street no.14 Block A</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="wow fadeInLeftShort" data-wow-offset="-50" data-wow-delay="0.2s" data-duration="0.3s">
+                            <div class="address-card">
+                              <div class="paper">
+                                <h6 class="title">Dental Clinic</h6>
+                                <div class="row">
+                                  <div class="col-md-6 pa-0"><i class="material-icons icon">phone</i>+123 456 78 91</div>
+                                  <div class="col-md-6 pa-0"><i class="material-icons icon">email</i>info@example.com</div>
+                                  <div class="col-sm-12 pa-0"><i class="material-icons icon">location_on</i>Lorem ipsum street Block C - Vestibullum Building</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="wow fadeInLeftShort" data-wow-offset="-50" data-wow-delay="0.4s" data-duration="0.3s">
+                            <div class="address-card">
+                              <div class="paper">
+                                <h6 class="title">Mother and Baby Care</h6>
+                                <div class="row">
+                                  <div class="col-md-6 pa-0"><i class="material-icons icon">phone</i>+123 456 78 91</div>
+                                  <div class="col-md-6 pa-0"><i class="material-icons icon">email</i>info@example.com</div>
+                                  <div class="col-sm-12 pa-0"><i class="material-icons icon">location_on</i>Lorem ipsum street no.14 Block A</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="wow fadeInLeftShort" data-wow-offset="-50" data-wow-delay="0.6000000000000001s" data-duration="0.3s">
+                            <div class="address-card">
+                              <div class="paper">
+                                <h6 class="title">Orthopedic Clinic</h6>
+                                <div class="row">
+                                  <div class="col-md-6 pa-0"><i class="material-icons icon">phone</i>+123 456 78 91</div>
+                                  <div class="col-md-6 pa-0"><i class="material-icons icon">email</i>info@example.com</div>
+                                  <div class="col-sm-12 pa-0"><i class="material-icons icon">location_on</i>Lorem ipsum street Block C - Vestibullum Building</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 pa-6">
+                      <div class="card map">
+                        <div id="map"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END CLINICS #####-->
+          </main>
+        </div><!-- ##### PAGE NAV #####-->
+        <div class="hidden-md-down">
+          <div class="page-nav" id="page_nav">
+            <nav class="section-nav">
+              <div class="scrollnav">
+                <ul>
+                  <li style="top: 120px"><a class="tooltipped" href="#about" data-position="left" data-tooltip="about"></a></li>
+                  <li style="top: 90px"><a class="tooltipped" href="#facility" data-position="left" data-tooltip="facilities"></a></li>
+                  <li style="top: 60px"><a class="tooltipped" href="#ask-doctors" data-position="left" data-tooltip="ask doctors"></a></li>
+                  <li style="top: 30px"><a class="tooltipped" href="#clinics" data-position="left" data-tooltip="clinics"></a></li>
+                </ul>
+              </div>
+            </nav>
+            <div class="scrollnav"><a class="btn-floating btn-large primary tooltipped waves-effect waves-light" href="#home" data-position="left" data-tooltip="To Top">
+                <div class="icon material-icons">arrow_upward</div>
+              </a></div>
+          </div>
+        </div><!-- ##### END PAGE NAV #####-->
+        <!-- ##### NOTIFICATION #####-->
+        <div class="hidden-md-down">
+          <div class="alert full alert-dismissible fade show notification" role="alert">
+            <div class="wrapper">
+              <div class="content">
+                <div class="action">This is an example of a message that is commonly used for important information to visitors or users. Please click the button beside to close this message.</div>
+                <button class="btn btn-outlined waves-effect" type="button" data-dismiss="alert" aria-label="Close">Accept</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- ##### END NOTIFICATION #####-->
+        {% include footer.html %}
       </div>
     </div>
-    <div class="accordion-item">
-      <button id="accordion-button-2" aria-expanded="false">
-        <b class="accordion-title">¿Cuáles son los riesgos asociados con el Mommy Makeover del Dr. Hermes Gamba?</b><span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p>¡Entiendo que tu seguridad es tu prioridad! La cirugía conlleva ciertos riesgos, como infecciones o problemas de cicatrización. Descansa tranquila, <a href="#team">mi equipo médico altamente calificado</a> trabaja minimizando estos riesgos y garantizando tu seguridad durante todo el procedimiento.</p>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <button id="accordion-button-3" aria-expanded="false">
-        <b class="accordion-title">¿Cómo puedo asegurarme de que estaré encantada con los resultados del Mommy Makeover?</b><span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p>¡Tu satisfacción es clave! Antes de la cirugía, haremos consultas exhaustivas para entender tus expectativas. <strong>Utilizamos tecnologías avanzadas y discutimos detalladamente los resultados esperados</strong> para asegurarnos de que te sientas cómoda y confiada en tu transformación.</p>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <button id="accordion-button-4" aria-expanded="false">
-        <b class="accordion-title">¿Cuánto durará mi recuperación y cómo se ajustará a mis responsabilidades como madre?</b><span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p>Entendemos la importancia de tu rol como madre. El tiempo de recuperación varía, pero nuestro equipo personaliza planes post-operatorios para adaptarse a tu estilo de vida. <strong>Proporcionamos orientación detallada sobre cómo equilibrar tus responsabilidades maternas</strong> durante este período.</p>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <button id="accordion-button-5" aria-expanded="false">
-        <b class="accordion-title">¿Cuáles son los costos involucrados y hay gastos adicionales después del Mommy Makeover?</b><span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p>¡La transparencia es nuestra prioridad! Proporcionamos una estimación clara de los costos y discutimos cualquier gasto adicional anticipado. Queremos que tomes decisiones informadas y te sientas segura en cada paso de tu transformación.</p>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <button id="accordion-button-5" aria-expanded="false">
-        <b class="accordion-title">¿Existen efectos secundarios a largo plazo que deba tener en cuenta después del Mommy Makeover?</b><span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p><strong>Tu salud a largo plazo es fundamental</strong>. Nuestro equipo médico te informará sobre posibles efectos secundarios a largo plazo y brindará orientación sobre cómo manejarlos. Nos preocupamos por tu bienestar a largo plazo tanto como tú.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-{% include testimonio-face.html url="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fdoctorhermesgamba%2Fvideos%2F4550580714969786%2F&show_text=false&width=476&t=0" width="320" height="320" title="Ha cambiado mi vida en tan poco tiempo" %}
-
-<div class="cta-final wrapper" id="contacto">
-  <div class="login-form">
-    <div class="header">
-      <h2 class="title">Escríbeme y recibe más información para tu operación</h2>
-      <p><strong>Soy el doctor y cirujano Hermes Gamba</strong>. Disfruto de mi pasión de mejorar vidas desde hace más de 10 años y he ayudado a más de 1000 personas.</p>
-      <p>Te garantizo que tendrás una experiencia absolutamente renovadora. Solo contáctame y resuelve todas tus inquietudes. Y después de tomar tu decisión, <strong>estaré feliz de tenerte entre mis pacientes y amigos quienes ahora disfrutan del cuerpo que tanto soñaron.</strong></p>
-    </div>
-    {% include boton.html %}
-  </div>
-  <div class="testimonial">
-    <img src="{{'img/hermes-gamba.jpg'|relative_url}}" alt="">
-    <p>#pasionpormejorarvidas - Dr. Hermes Gamba</p>
-  </div>
-</div>
+  </div><!-- Scripts-->
