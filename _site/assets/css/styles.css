@@ -13286,6 +13286,7 @@ body {
   transform: rotate(-30deg);
   position: absolute;
   opacity: 0.75;
+  z-index: 0;
 }
 
 .theme--light .form-page .decoration .capsul {
@@ -13325,6 +13326,7 @@ body {
   border-radius: 50%;
   border: 1px solid;
   position: absolute;
+  z-index: 0;
 }
 
 .theme--light .form-page .decoration .circle {
@@ -15088,6 +15090,7 @@ body {
   position: absolute;
   opacity: 0.75;
   top: 80px;
+  z-index: 0;
 }
 
 .theme--light .title-icon-deco .capsul {
@@ -15286,7 +15289,7 @@ body {
   background-color: var(--accent);
   min-width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 10;
   transition: all 0.7s ease-out;
 }
 
@@ -15322,11 +15325,13 @@ body {
 }
 
 .image-hero {
+  position: relative;
   width: min(calc(100% - 16px), 1280px);
   margin-inline: auto;
   display: grid;
   place-items: center;
   padding: 2em 0 0;
+  z-index: 20;
 }
 
 .image-hero h3 {
