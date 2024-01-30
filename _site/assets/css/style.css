@@ -729,6 +729,10 @@ clip-path: inset(0 -100vmax); */
   padding: 20px 12px;
 }
 
+.blog-main .dropbtn{
+  flex-grow: ;
+}
+
 .entradas {
   display: grid;
 }
