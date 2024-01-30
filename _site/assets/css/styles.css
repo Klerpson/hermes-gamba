@@ -15435,7 +15435,8 @@ body {
   margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   z-index: 100;
   gap: 1.6em;
 }
@@ -15448,8 +15449,8 @@ body {
 }
 
 .blog-main > article{
-  flex: 1 0 280px;
-  max-width: 280px;
+  flex: 1 0 306px;
+  max-width: 306px;
   box-shadow: 0 1.5px 12px 2px rgba(0, 0, 0, 0.06);
   background-color: white;
   height: min-content;
