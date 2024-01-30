@@ -24,4 +24,4 @@ compress_html:
 collections:
   posts:
     output: true
-    permalink: /:categories/:slug
+    permalink: "/:categories/:slug"
