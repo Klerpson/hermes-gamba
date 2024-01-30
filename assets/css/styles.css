@@ -14987,11 +14987,11 @@ body {
   }
 
   .theme--dark .title-deco h3 {
-    color: var(--v-primarylight-base);
+    color: white;
   }
 
   .theme--light .title-deco h3 {
-    color: var(--v-primarydark-base);
+    color: white;
   }
 }
 @media (max-width: 599px) {
