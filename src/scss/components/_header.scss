@@ -281,35 +281,6 @@ $flag: '../images/flag-logo.png';
   min-height: 0 !important;
 }
 
-.setting {
-  position: relative;
-  .icon {
-    font-size: 32px;
-    transition: all 0.3s ease;
-    @include breakpoints-down(sm) {
-      color: $palette-common-white
-    }
-  }
-  .active {
-    transform: rotate(30deg)
-  }
-  .menu-list {
-    text-transform: capitalize
-  }
-  .dropdown-content {
-    width: 200px !important;
-    border-radius: 12px;
-    [dir="ltr"] & {
-      right: $spacing1 !important;
-      left: auto !important
-    }
-    [dir="rtl"] & {
-      left: $spacing1 !important;
-      right: auto !important
-    }
-  }
-}
-
 .mode-menu, .lang-menu {
   text-transform: capitalize
 }

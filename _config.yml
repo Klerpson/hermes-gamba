@@ -20,3 +20,8 @@ compress_html:
     blanklines: false
     profile: false
     startings: []
+
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:slug

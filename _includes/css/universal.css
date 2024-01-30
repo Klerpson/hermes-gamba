@@ -88,11 +88,7 @@ a {
   text-decoration-thickness: 2.6px;
   font-weight: 900;
   color: var(--accion);
-  transition: all .1s ease-out;
-}
-
-a:hover:not(.logo) {
-  transform: scale(1.04) rotate(-.8deg);
+  transition: all .2s ease-in;
 }
 
 img {
@@ -100,10 +96,6 @@ img {
   border-radius: var(--radius);
   max-width: 100%;
   transition: all .2s ease-out;
-}
-
-img:hover{
-  transform: scale(1.05);
 }
 
 small {

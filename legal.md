@@ -59,7 +59,7 @@ Julian Franco informa a los usuarios, que los datos personales recabados podrán
 
 El usuario es el único responsable de la precisión y veracidad de los datos. Julian Franco queda eximido de toda responsabilidad a este respecto. Serán los usuarios quienes garantizarán que los datos proporcionados sean auténticos, precisos, no hayan cambiado y continúen siendo los mismos. Adquirirán también el compromiso de mantenerlos actualizados.
 
-El usuario proporcionará información completa y correcta cuando se le sociliten para el registro. Julian Franco no se hará responsable de la veracidad de información de terceros ni de informaciones que citen otras fuentes. Tampoco se hará responsable de los hipotéticos daños que la utilización de dicha información pudiere causar.
+El usuario proporcionará información completa y correcta cuando se le soliciten para el registro. Julian Franco no se hará responsable de la veracidad de información de terceros ni de informaciones que citen otras fuentes. Tampoco se hará responsable de los hipotéticos daños que la utilización de dicha información pudiere causar.
 
 Julian Franco se reserva el derecho de actualizar, modificar o borrar la información su Sitio Web, así como el derecho de restringir o prohibir el acceso a ellas. Si la información viene de fuentes ajenas a la empresa, Julian Franco no será responsable de ningún daño que el usuario pueda sufrir como resultado de errores, fallos u omisiones en dicha información.
 
@@ -86,6 +86,7 @@ Julian Franco y/o sus proveedores podrían, en cualquier momento y ya sea de for
 ## Marco jurídico
 
 Este Sitio y su contenido se rigen por la legislación de Colombia. Todo posible litigio relacionado con el Sitio o con su contenido se dirimirá en los tribunales de justicia colombianos.
+{:id="privacidad"}
 
 ## Cliente, Proveedor y Colaborador
 
