@@ -1,24 +1,52 @@
-{% if page.url == "/" %}
-<header class="header-home">
-  <div>
-    <img src="{{'img/logotipo.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-    <p>Resuelve tus inseguridades y alcanza <strong>la imagen que siempre has deseado</strong></p>
-    <h1>Como cirujano plástico, puedo ayudarte a lograrlo</h1>
-    <a href="{{site.whatsapp}}" title="WhatsApp del cirujano Hermes Gamba" class="boton boton_2">
-      <svg height="18" width="18" fill="var(--accion)" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle"> <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path> </svg> Programa tu consulta</a>
-  </div>
-  <img src="{{'img/doctor-hermes-gamba.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-</header>
-{% else %}
-<header class="header-contacto">
-  <div>
-    <div class="text-hero flow">
-      <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-      <h1>{{page.h1}}</h1>
-      {% if page.intro %}
-      <p>{{page.intro}}</p>
-      {% endif %}
+{% assign url = page.url %}
+{% case url %}
+  {% when "/" %}
+  <header class="header-home">
+    <div>
+      <img src="{{'img/logotipo.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
+      <p>Resuelve tus inseguridades y alcanza <strong>la imagen que siempre has deseado</strong></p>
+      <h1>Como cirujano plástico, puedo ayudarte a lograrlo</h1>
+      <a href="{{site.whatsapp}}" title="WhatsApp del cirujano Hermes Gamba" class="boton boton_2">
+        <svg height="18" width="18" fill="var(--accion)" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle"> <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path> </svg> Programa tu consulta</a>
     </div>
-  </div>
-</header>
-{% endif %}
+    <img src="{{'img/doctor-hermes-gamba.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
+  </header>
+  {% when "/contacto", "/mamoplastia" %}
+     <header class="header-contacto">
+       <div>
+         <div class="text-hero flow">
+           <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
+           <h1>{{page.h1}}</h1>
+           {% if page.intro %}
+           <p>{{page.intro}}</p>
+           {% endif %}
+         </div>
+       </div>
+     </header>
+  {% when "/lipoescultura" %}
+  <header class="header-lipoescultura">
+    <div>
+      <div class="text-hero flow">
+        <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
+        <h1>{{page.h1}}</h1>
+        {% if page.intro %}
+        <p>{{page.intro}}</p>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+  {% when "/gluteoplastia" %}
+  <header class="header-gluteoplastia">
+    <div>
+      <div class="text-hero flow">
+        <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
+        <h1>{{page.h1}}</h1>
+        {% if page.intro %}
+        <p>{{page.intro}}</p>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+  {% else %}
+     This is not a cake nor a cookie
+{% endcase %}

@@ -313,7 +313,6 @@ clip-path: inset(0 -100vmax); */
   }
 }
 
-
 .header-home div p{
   font-weight: 700;
 }
@@ -323,6 +322,60 @@ clip-path: inset(0 -100vmax); */
   align-self: flex-end;
 }
 
+.header-contacto{
+  background-image: url('/img/contacto-hermes-gamba.webp');
+}
+
+.header-gluteoplastia{
+  background-image: url('/img/gluteoplastia.webp');
+}
+
+.header-lipoescultura{
+  background-image: url('/img/lipoescultura.webp');
+}
+
+.header-contacto,
+.header-lipoescultura,
+.header-gluteoplastia{
+  position: relative;
+  height: 80vh;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.header-contacto > div,
+.header-lipoescultura > div,
+.header-gluteoplastia > div{
+  position: relative;
+  background-color: rgba(120, 166, 207, 0.756);
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.text-hero{
+  z-index: 2;
+  padding: 3em 16px;
+  width: min(100%, 800px);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.text-hero h1{
+  color: var(--principal);
+}
+
+.text-hero p {
+  color: white;
+  font-weight: 700;
+}
 .about-home{
   display: grid;
   gap: 2em;
@@ -1121,46 +1174,6 @@ clip-path: inset(0 -100vmax); */
   transform: scale(1.1);
 }
 
-
-.header-contacto{
-  position: relative;
-  height: 80vh;
-  background-image: url('/img/contacto-hermes-gamba.webp');
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-.header-contacto > div{
-  position: relative;
-  background-color: rgba(120, 166, 207, 0.756);
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-}
-
-.text-hero{
-  z-index: 2;
-  padding: 3em 16px;
-  width: min(100%, 800px);
-  display: grid;
-  place-items: center;
-  text-align: center;
-}
-
-.text-hero h1{
-  color: var(--principal);
-}
-
-.text-hero p {
-  color: white;
-  font-weight: 700;
-}
 
 .datos{
   display: flex;
