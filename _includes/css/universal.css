@@ -186,12 +186,12 @@ table th {
 
 .boton_1 {
   background-color: white;
-  border: 2px solid #fff;
+  border: 2px solid var(--accion);
   color: var(--accion);
 }
 
 .boton_2 {
-  border: 2px solid var(--principal);
+  border: 2px solid var(--accion);
   background-color: var(--principal);
   color: white;
 }
