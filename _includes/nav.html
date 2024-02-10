@@ -2,7 +2,7 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="{{site.baseurl}}/">← Inicio</a>
   {% for enlace in site.data.servicios %}
-  <a href="{{site.baseurl}}/{{enlace.title|downcase}}" title="{{enlace.alt}}">✓ {{enlace.title}}</a>
+  <a href="{{site.baseurl}}/{{ enlace.title|downcase|xml_escape }}" title="{{enlace.alt}}">✓ {{enlace.title}}</a>
   {% endfor %}
   <!-- <a href="{{'blog'|relative_url}}" title="Página de blog" class="blog">Blog</a> -->
   <a href="{{'contacto'|relative_url}}" title="Página de contacto" class="contacto">Contáctanos</a>

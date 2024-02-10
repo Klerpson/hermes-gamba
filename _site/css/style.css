@@ -334,8 +334,28 @@ clip-path: inset(0 -100vmax); */
   background-image: url('/img/lipoescultura.webp');
 }
 
+.header-rinoplastia{
+  background-image: url('/img/operacion-nariz.webp');
+}
+
+.header-lipopapada{
+  background-image: url('/img/operacion-papada.webp');
+}
+
+.header-bichectomia{
+  background-image: url('/img/operacion-mejillas.webp');
+}
+
+.header-blefaroplastia{
+  background-image: url('/img/operacion-parpados.webp');
+}
+
 .header-contacto,
 .header-lipoescultura,
+.header-lipopapada,
+.header-rinoplastia,
+.header-blefaroplastia,
+.header-bichectomia,
 .header-gluteoplastia{
   position: relative;
   height: 80vh;
@@ -349,6 +369,10 @@ clip-path: inset(0 -100vmax); */
 
 .header-contacto > div,
 .header-lipoescultura > div,
+.header-lipopapada > div,
+.header-rinoplastia > div,
+.header-blefaroplastia > div,
+.header-bichectomia > div,
 .header-gluteoplastia > div{
   position: relative;
   background-color: rgba(120, 166, 207, 0.756);
