@@ -46,7 +46,7 @@ Existen alternativas no quirúrgicas para mejorar la apariencia de los glúteos,
 
 El ácido hialurónico puede ser una opción para quienes buscan una mejora temporal en la forma y volumen de los glúteos, aunque es importante considerar su duración y limitaciones.
 
-![Gluteoplastias realizadas por Hermes Gamba]({{'assets/images/gluteoplastia.webp'|relative_url}})
+![Gluteoplastias realizadas por Hermes Gamba]({{'img/cliente-2-hermes-gamba.webp'|relative_url}})
 
 ## Gluteoplastia en Hombres
 
@@ -65,6 +65,8 @@ El costo de una gluteoplastia *puede variar según la técnica utilizada, la exp
 Los cuidados postoperatorios son fundamentales para una recuperación exitosa. Aquí se incluyen recomendaciones sobre cómo cuidar las incisiones, manejar la inflamación y retomar las actividades cotidianas.
 
 Este procedimiento está dirigido a aquellos que desean mejorar la proyección, el tamaño y la forma de sus glúteos, especialmente después de una pérdida de peso o en casos de glúteos poco prominentes.
+
+{% include video-insta.html video="C0214oJLG9k" %}
 
 ### Candidato Ideal
 
@@ -109,6 +111,8 @@ La preparación adecuada y el seguimiento de las recomendaciones postoperatorias
 Estas recomendaciones son fundamentales para una recuperación exitosa y para maximizar los resultados de la gluteoplastia.
 
 >Es importante seguir al pie de la letra las indicaciones del cirujano para asegurar una recuperación sin complicaciones y con los mejores resultados posibles.
+
+![Cirugía de gluteos]({{'img/gluteos-cirugia.webp'|relative_url}})
 
 ### Inversión en Gluteoplastia: ¿Vale la Pena?
 
