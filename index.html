@@ -46,51 +46,11 @@ description: Soy el cirujano plástico Hermes Gamba. Te ayudo a cambiar tu vida 
 </section>
 
 <section class="wrapper flow procedimientos">
-  <h2>Te asesoro en mi blog personal</h2>
-  <p>Bienvenidos a nuestro espacio de transformación y bienestar, un rincón dedicado a explorar las posibilidades que la cirugía plástica y estética ofrece para alinear tu exterior con la vitalidad de tu ser interno. Soy el Dr. [Apellido], y a través de este blog, compartiré contigo los avances más recientes, consejos expertos y respuestas a las inquietudes que puedan surgir en tu camino hacia el cambio.</p>
-  <p>Aquí encontrarás historias de pacientes que, como tú, estaban buscando una solución personalizada para realzar su belleza única. Hablaremos sobre cómo cada procedimiento puede ser adaptado a tus necesidades, despejaremos mitos y te equiparemos con la información necesaria para tomar decisiones informadas sobre tu salud y tu imagen.</p>
-  
-  {% assign post1 = site.posts[0] %}
-    <article class="post-home">
-      <img
-      src="{{ site.baseurl }}/img/{{ post1.hero }}"
-      alt="{{ post1.alt }}"
-      loading="lazy"
-      width="160"
-      height="160"
-      >
-      <a href="{{site.baseurl}}{{ post1.url }}">
-        <h4>{{ post1.h1 | truncate: 68 }}</h4>
-      </a>
-    </article>
-    {% assign post2 = site.posts[1] %}
-    <article class="post-home">
-      <img
-      src="{{ site.baseurl }}/img/{{ post2.hero }}"
-      alt="{{ post2.alt }}"
-      loading="lazy"
-      width="160"
-      height="160"
-      >
-      <a href="{{site.baseurl}}{{ post2.url }}">
-        <h4>{{ post2.h1 | truncate: 68 }}</h4>
-      </a>
-    </article>
-    {% assign post3 = site.posts[2] %}
-    <article class="post-home">
-      <img
-      src="{{ site.baseurl }}/img/{{ post3.hero }}"
-      alt="{{ post3.alt }}"
-      loading="lazy"
-      width="160"
-      height="160"
-      >
-      <a href="{{site.baseurl}}{{ post3.url }}">
-        <h4>{{ post3.h1 | truncate: 68 }}</h4>
-      </a>
-    </article>
-  
-  <p>Este blog es un diálogo abierto, así que te invito a disfrutarlo. Juntos, podemos descubrir cómo la cirugía plástica no solo cambia contornos, sino que también puede mejorar la confianza y la calidad de vida.</p>
+  <h2>Mira lo que vas a conseguir en tu vida</h2>
+  <p>Cuando tomes la decisión <strong>de hacer tu cirugía plástica con el cirujano Hermes Gamba</strong>, tú también tendrás lo que estas personas ya disfrutan.</p>
+  <p>Aquí encontrarás historias de pacientes que, como tú, estaban buscando una solución personalizada para realzar su belleza única. <strong>La confianza y la seguridad que con mi experiencia te puedo ofrecer</strong>, ellas también la sintieron. Te invito a escribirme y compartirme tus inquietudes. Entonces, podrás tomar tu decisión de operarte con total tranquilidad.</p>
+  {% include galeria.html %}
+  {% include boton.html num="2" %}
 </section>
 
 <section class="wrapper flow testimonios">

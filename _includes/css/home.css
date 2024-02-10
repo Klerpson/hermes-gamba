@@ -127,6 +127,10 @@
   box-shadow: var(--shadow);
 }
 
+.testimonios h2{
+  text-align: center;
+}
+
 .testimonios div{
   display: grid;
   gap: 1em;
