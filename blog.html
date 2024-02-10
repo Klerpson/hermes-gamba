@@ -2,92 +2,21 @@
 layout: default
 title: "Infórmate con el blog del cirujano Hermes Gamba y toma tu decisión"
 description: "En este blog te comparto toda lo que necesitas para tomar la decisión de operarte con 3 pilares importantes: • Tranquilidad • Confianza • Seguridad"
+h1: Haz tu próxima cirugía plástica bien informada
+published: no
 ---
-<main class="container-wrap">
-  <!-- ##### ABOUT #####-->
-  <section class="space-top-long is-md" id="about">
-    <div class="root">
-      <div class="container fixed-width">
-        <div class="row">
-          <div class="col-md-5 py-md-6 px-sm-6 px-0">
-            <div class="text-center">
-              <div>
-                <div class="title-deco">
-                  <h3 class="bg-img">
-                    <span>Blog de Hermes Gamba</span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-7 pa-6">
-            <h1 class="title-default use-text-subtitle">Cambia tu vida con tu próxima cirugía plástica. Toma una decisión bien informada</h1>
-            <div class="counter-wrap">
-              <div class="container fixed-width">
-                <div class="row justify-content-center align-items-center">
-                  <div class="col ma-sm-0 my-4">
-                    <div class="counter-item deco">
-                      <div class="text">
-                        <h3>+{{site.posts |size}}
-                        </h3>
-                        <p>artículos</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col ma-sm-0 my-4">
-                    <div class="counter-item deco">
-                      <div class="text">
-                        <h3>+3</h3>
-                        <p>autores</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col ma-sm-0 my-4">
-                    <div class="counter-item">
-                      <div class="text">
-                        <h2>+15</h2>
-                        <p>años de experiencia</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <blockquote>Te ayudo a resolver tus dudas, a superar tus temores y a conseguir el gran cambio que buscas.</blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- ##### END ABOUT #####-->
-  <!-- ##### CLINICS #####-->
-  <section class="space-top-short d-flex justify-content-center" id="clinics">
-    {% include boton.html %}
-  </section>
-<!-- ##### FACILITIES #####-->
-<section class="space-top" id="facility">
-  <div class="root">
-    <div class="blog-main">
-      <h2>Aprende más del cirujano plástico Hermes Gamba</h2>
+<section class="wrapper flow testimonios">
+  <h2>Aprende más del cirujano plástico Hermes Gamba</h2>
+  <p>Este blog es un diálogo abierto, así que te invito a que te sumerjas, preguntes y participes. Juntos, podemos descubrir cómo la cirugía plástica no solo cambia contornos, sino que también puede mejorar la confianza y la calidad de vida.</p>
+</section>
+<main class="wrapper flow procedimientos">
         {% for servicio in site.posts %}
-        <article>
-          <a href="{{site.baseurl}}{{servicio.url}}">
-            <figure><img src="{{site.baseurl}}/img/{{servicio.hero}}" alt="{{servicio.alt}}" ></figure>
+        <article class="post-home">
+          <img src="{{site.baseurl}}/img/{{servicio.hero}}" alt="{{servicio.alt}}" loading="lazy" width="160" height="160">
+          <a href="{{site.baseurl}}{{servicio.url}}" title="{{servicio.h1}}">
             <h4 class="title">{{servicio.title}} </h4>
           </a>
         </article>
         {% endfor %}
-    </div>
-    <div class="floating-title">
-      <div class="container fixed-width">
-        <div class="title">
-          <div class="title-icon-deco">
-            <div class="capsul"></div>
-            <div class="circle"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><!-- ##### END FACILITIES #####-->
-{% include cta.html %}
-</main>
+    {% include cta.html %}
+  </main>

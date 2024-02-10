@@ -1,0 +1,47 @@
+.servicios{
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+}
+
+.servicios img:not(.rect .rel img){
+  float: right;
+  box-shadow: var(--shadow);
+  width: min(100%, 400px);
+  margin: 12px 12px 2em;
+}
+
+.servicios-intro{
+  display: grid;
+  gap: 1em;
+  place-items: center;
+  text-align: center;
+  padding: 2em 0 3em;
+}
+
+.servicios ul li{
+  list-style: disc;
+}
+
+.servicios > .boton{
+  margin: 2em 0;
+}
+
+.servicios-seccion{
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 496px), 1fr));
+  background-color: var(--acento);
+  box-shadow: 0 0 0 100vmax var(--acento);
+  clip-path: inset(0 -100vmax);
+  padding: 2em 0;
+  margin: 2em 0;
+  align-items: center;
+}
+
+.servicios .insta{
+  float: right;
+  margin: 12px 12px 2em;
+  box-shadow: var(--shadow);
+  width: min(100%, 400px);
+}

@@ -7,6 +7,10 @@ noindex: true
 web: hermesgamba.com
 propietario: Hermes Gamba
 ---
+## ADVERTENCIA
+
+Descargo de responsabilidad: los cambios físicos de las personas y los resultados de nuestros testimonios que verás en esta u otras páginas o en mi material no son típicos y son el resultado de un seguimiento o guía profesional con expertos en Cirugía Plástica del equipo directo del Dr. Hermes Gamba. Estos cambios físicos, de salud y sus resultados se utilizan específicamente como ejemplos. Sus resultados variarán dependiendo de una amplia variedad de variables y factores.
+
 ## Aviso legal para sitio web de {{page.web}}
 
 En esta página se detallan las instrucciones legales que se aplican a todos los usuarios de Internet que visiten este Sitio ({{page.web}}) propiedad de {{page.propietario}}, con domicilio Bogotá Cundinamarca, Cl. 90 #19A-49 Consultorio 204, Localidad de Chapinero. Al acceder y navegar por este sitio, usted se compromete a respetar estas instrucciones sin ningún tipo de excepción. Es por ello que le aconsejamos que consulte estas instrucciones cada cierto tiempo, ya que podrían modificarse de forma periódica y sin previo aviso por parte de {{page.propietario}}. **Si usted no desea aceptar o cumplir las condiciones aquí descritas, deberá abandonar este sitio web inmediatamente.**

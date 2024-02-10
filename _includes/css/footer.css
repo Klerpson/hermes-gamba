@@ -1,0 +1,36 @@
+.footer{
+  background-color: var(--principal);
+  box-shadow: 0 0 0 100vmax var(--principal);
+  clip-path: inset(0 -100vmax);
+  color: white;
+}
+
+.footer div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .footer > div{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.footer div > a:not(.redes a){
+  color: white;
+  border-left: 1.2px solid white;
+  padding-left: 1em;
+}
+
+.footer div p{
+  color: white;
+}
+
+.footer hr{
+  margin: 1em 0;
+  color: var(--gris3);
+}

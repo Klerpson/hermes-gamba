@@ -1,33 +1,12 @@
 ---
 layout: default
 ---
-<section class="space-top" id="facility">
-  <div class="hero-servicios">
-    <h1 class="subtitle use-text-subtitle2">{{page.h1}}</p>
+<main class="wrapper flow servicios">
+  <div class="servicios-intro">
     <h2>{{page.h2}}</h2>
-    {% include boton.html %}
+    {% include boton.html num="2" %}
   </div>
-  <div class="floating-title">
-    <div class="container fixed-width">
-      <div class="title">
-        <div class="title-icon-deco">
-          <div class="capsul"></div>
-          <div class="circle"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="image-hero">
-  <h3>{{page.intro}}</h3>
   <img src="{{site.baseurl}}/img/{{page.hero}}" alt="{{page.alt}}">
-</section>
-<main class="space-top-short is-xs">
-  <div class="root">
-    <div class="deco"></div>
-      <div class="servicio">
-          {{content}}
-      </div>
-    </div>
-  </div>
+  <h4>{{page.intro}}</h4>
+  {{content}}
 </main>

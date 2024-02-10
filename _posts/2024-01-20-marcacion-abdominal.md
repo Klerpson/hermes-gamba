@@ -6,6 +6,7 @@ category: "lipoescultura"
 h1: "Resalta tu belleza natural: lipoescultura y abdominoplastia para una silueta perfecta"
 hero: marcado-abdomen.webp
 alt: Lipoescultura marcacion abdominal 
+published: no
 excerpt: "Obtén el abdomen plano y tonificado que siempre has deseado con la abdominoplastia. ¡Descubre más y empieza tu cambio!"
 ---
 ## Lipoescultura y Abdominoplastia: Transforma tu Cuerpo Hoy

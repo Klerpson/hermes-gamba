@@ -12,7 +12,7 @@ alt: Foto de una lipoescultura
 
 La lipoescultura es una técnica quirúrgica avanzada que permite **remodelar el contorno corporal eliminando depósitos de grasa localizada y redefiniendo áreas específicas del cuerpo**.
 
-A diferencia de la liposucción tradicional, la lipoescultura no solo elimina la grasa, sino que también esculpe y [define zonas como el abdomen]({% post_url 2024-01-20-marcacion-abdominal %}), los muslos, los glúteos y los brazos, logrando una silueta más estilizada y armoniosa.
+A diferencia de la liposucción tradicional, la lipoescultura no solo elimina la grasa, sino que también esculpe y define zonas como el abdomen, los muslos, los glúteos y los brazos, logrando una silueta más estilizada y armoniosa.
 
 ### Definición y Diferencias con la Liposucción
 
@@ -24,6 +24,7 @@ A diferencia de la liposucción tradicional, la lipoescultura no solo elimina la
 | **Resultados** | Reducción de grasa en áreas específicas | Mejora estética más completa, incluyendo tonificación y mejor contorno |
 | **Indicaciones** | Pacientes que necesitan una reducción significativa de grasa | Pacientes que buscan una mejora más detallada y estética del cuerpo |
 
+![Lipoescultura hecha por Hermes Gamba]({{'img/lipoescultura-cirugia.webp'|relative_url}} "Lipoescultura Hermes Gamba")
 
 ### Lipoescultura: Un Arte Quirúrgico
 
@@ -41,7 +42,6 @@ La elección de la técnica dependerá de varios factores, incluyendo el área a
 | **Lipoescultura Vaser** | Emplea ultrasonidos para romper las células de grasa antes de su extracción. | Ideal para áreas con tejido fibroso, menos traumatismo y recuperación más rápida. |
 | **Lipoescultura Láser** | Utiliza energía láser para licuar la grasa antes de su extracción. | Minimiza el trauma en los tejidos y promueve una recuperación rápida. |
 | **Lipoescultura 3D y 4D** | Técnicas avanzadas que esculpen el cuerpo para resaltar la musculatura. | Crea un aspecto más atlético y definido, ideal para contornear el cuerpo. |
-
 
 ## Procedimientos Específicos
 
@@ -63,11 +63,11 @@ La lipoescultura facial y de papada es una técnica delicada que requiere precis
 
 Esta técnica se centra en el abdomen y la cintura, áreas comunes de acumulación de grasa. La lipoescultura en estas zonas puede resultar en un abdomen más plano y una cintura más definida.
 
-![Lipoescultura realizadas por Hermes Gamba]({{'assets/images/lipoescultura.webp'|relative_url}})
-
 ## Lipoescultura y Transferencia de Grasa
 
 La lipoescultura no solo elimina la grasa, sino que también permite su reutilización en otras áreas del cuerpo donde se desea aumentar el volumen, como los glúteos o los senos.
+
+{% include video-insta.html video="C0xnjghLLhO" %}
 
 ### Lipoescultura con Transferencia a Glúteos
 
@@ -114,6 +114,8 @@ La lipoescultura en hombres requiere un enfoque diferente, teniendo en cuenta la
 ## Preparación para la Lipoescultura
 
 Una preparación adecuada es crucial para el éxito de la lipoescultura. Esto incluye una evaluación médica completa y seguir las instrucciones del cirujano antes de la cirugía.
+
+{% include video-insta.html video="Cw8r9R1rVBq" %}
 
 ### Preparación para la Lipoescultura 360
 
@@ -178,6 +180,8 @@ La recuperación de la lipoescultura 360 varía según la extensión del procedi
 - **Deambulación temprana al día siguiente de la cirugía.**
 - **Abstinencia de fumar.**
 - **Dieta rica en fibra.**
+
+{% include video-insta.html video="CuId55_syZc" %}
 
 ## Costos y Consideraciones Financieras
 

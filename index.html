@@ -3,372 +3,116 @@ layout: default
 title: Hermes Gamba | Médico Cirujano y Estético Colombiano
 description: Soy el cirujano plástico Hermes Gamba. Te ayudo a cambiar tu vida consiguiendo el cuerpo que sueñas tener. Contáctame y separemos la cita que te ayudará a descubrir cómo
 ---
-<main class="container-wrap">
-  <!-- ##### PARALLAX OVAL #####-->
-  <div class="parallax-wrap">
-    <div>
-      <div class="inner-parallax about">
-        <div class="figure">
-          <div>
-            <div data-enllax-ratio="-0.15" data-enllax-type="foreground">
-              <div class="parallax-oval parallax-primary"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div><!-- ##### END PARALLAX OVAL #####-->
-  <!-- ##### BANNER #####-->
-  <section id="banner">
-    <div class="hero-content">
-      <div class="hidden-sm-up">
-        <figure class="mobile-cover">
-          <img src="/img/doctor-hermes-gamba.webp" alt="cover">
-        </figure>
-      </div>
-      <div class="container mq-lg-up" data-class="fixed-width">
-        <div class="row">
-          <div class="col-md-6 px-0">
-            <div class="banner-text">
-              <div class="title">
-                <h1 class="text-helper use-text-title">Cirujano plástico y estético en Colombia</h1>
-              </div>
-              <p class="subtitle use-text-subtitle2">Soy el cirujano plástico Hermes Gamba. Te ayudo a cambiar tu vida consiguiendo el cuerpo que sueñas tener.</p>
-              <p>Envía tu número y te contactaremos para guiarte en este hermoso camino:</p>
-              {% include boton.html %}
-            </div>
-          </div>
-          <div class="col-md-6 pa-6 show-sm-up">
-            <div class="deco-banner">
-              <div class="menu-bg"></div>
-              <div class="video-bg"></div>
-            </div>
-            <div class="video-wrap">
-              <div class="video-figure">
-                <div class="inner-figure">
-                  <img class="show-md-down" src="/img/doctor-hermes-gamba.webp" alt="cover" >
-                  <img class="hidden-md-down" id="banner_cover" src="/img/doctor-hermes-gamba.webp" alt="cover" >
-                </div>
-              </div>
-            </div>
-            <div class="parallax-banner">
-              <div class="parallax-wrap dots-wrap">
-                <div class="inner-parallax">
-                  <div class="figure">
-                    <div>
-                      <div data-enllax-ratio="0.2" data-enllax-type="foreground">
-                        <img src="./assets/images/decoration/dot-deco.svg" alt="dot deco" >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- ##### END BANNER #####-->
-  <!-- ##### ABOUT #####-->
-  <section class="space-top-short is-md" id="about">
-    <div class="root">
-      <div class="container fixed-width">
-        <div class="row">
-          <div class="col-md-5 py-md-6 px-sm-6 px-0">
-            <div class="text-center">
-              <div>
-                <div class="title-deco">
-                  <h3 class="bg-img">
-                    <span>Opérate sin temor</span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-7 pa-6">
-            <h4 class="title-default use-text-subtitle">Te compartimos las razones que hacen que nuestros pacientes sigan confiando en mi.</h4>
-            <div class="counter-wrap">
-              <div class="container fixed-width">
-                <div class="row justify-content-center align-items-center">
-                  <div class="col ma-sm-0 my-4">
-                    <div class="counter-item deco">
-                      <div class="text">
-                        <h3>+1000</h3>
-                        <p>procedimientos</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col ma-sm-0 my-4">
-                    <div class="counter-item deco">
-                      <div class="text">
-                        <h3>+850</h3>
-                        <p>pacientes</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col ma-sm-0 my-4">
-                    <div class="counter-item">
-                      <div class="text">
-                        <h2>+15</h2>
-                        <p>años de experiencia</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <blockquote>Te ayudo a resolver tus dudas, a superar tus temores y a conseguir el gran cambio que buscas.</blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- ##### END ABOUT #####-->
-  <!-- ##### FACILITIES #####-->
-  <section class="space-top" id="facility">
-    <div class="root">
-      <div class="carousel-handle">
-        <div class="carousel-wrap">
-          <div class="carousel">
-            <div class="slick-carousel" id="services_carousel" data-length="6">
-              <div class="item show-lg-up">
-                <div class="carousel-prop">
-                  <div></div>
-                </div>
-              </div>
-              <div class="item show-lg-up">
-                <div class="carousel-prop">
-                  <div></div>
-                </div>
-              </div>
-              {% for servicio in site.data.servicios %}
-              <div class="item">
-                <div class="card default-card">
-                  <figure><img src="{{site.baseurl}}/img/{{servicio.img}}" alt="{{servicio.alt}}" ></figure>
-                  <div class="text">
-                    <a href="{{site.baseurl}}{{servicio.url}}">
-                      <h6 class="title">{{servicio.title}} </h6>
-                    </a>
-                    <p>{{servicio.p}}</p>
-                  </div>
-                  <a class="btn waves-effect block secondary button" href="https://api.whatsapp.com/send?phone=+573154536211&text=Hola%20%F0%9F%91%8B%20Por%20favor,%20env%C3%ADame%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20operaci%C3%B3n:%20{{servicio.title}}">Infórmate</a>
-                </div>
-              </div>
-              {% endfor %}
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="floating-title">
-        <div class="container fixed-width">
-          <div class="title">
-            <div class="title-icon-deco">
-              <div class="capsul"></div>
-              <div class="circle"></div>
-              <i class="material-icons icon">library_add</i>
-              <h3>¿Cuál te gustaría?</h3>
-            </div>
-            <nav class="arrow">
-              <button class="btn-floating margin waves-effect" id="next_services"><i class="material-icons">arrow_back</i></button>
-              <button class="btn-floating margin waves-effect" id="prev_services"><i class="material-icons">arrow_forward</i></button>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- ##### END FACILITIES #####-->
-  <!-- ##### EXPERTISE #####-->
-  <section class="space-top is-md" id="our-expertise">
-    <div class="root">
-      <div class="container">
-        <div class="row spacing8">
-          <div class="col-lg-1 show-lg-up"></div>
-          <div class="col-md-5 text-center text-lg-start">
-            <div class="title-deco">
-              <div class="decoration show-lg-up"></div>
-              <div>
-                <div class="title-deco">
-                  <h3 style="background-image: url()">
-                    <span>Tu gran cambio</span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="wow parallax-scene zoomInShort" data-wow-offset="-100" data-wow-delay="0.1s" data-wow-duration="0.3s">
-              <div class="parallax-scene">
-                <div id="scene">
-                  <div data-depth="0.15"><span class="icon-green"></span></div>
-                  <div data-depth="0.1"><span class="icon-red"></span></div>
-                  <div data-depth="0.3"><span class="icon-blue"></span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-7">
-            <h4 class="title-default use-text-subtitle">Soy Hermes Gamba, cirujano plástico graduado en la Universidad Uniboyaca de Tunja. Y soy cirujano especializado en la Habana, Cuba</h4>
-            <p class="desc use-text-paragraph">Cumpliendo los sueños de mis pacientes, estoy a un paso de la aceptación por parte de <strong>la Sociedad Colombiana de Cirugía plástica</strong>.</p>
-            <div class="hidden-xs-down">
-              <div class="running-tag">
-                <div class="slick-carousel" id="expertise_carousel">
-                  <div class="tag-group">
-                    <span class="tag-item">Liposucción</span>
-                    <span class="tag-item">Mommy Makeover</span>
-                    <span class="tag-item">Mamoplastia</span>
-                  </div>
-                  <div class="tag-group">
-                    <span class="tag-item">Rinoplastia</span>
-                    <span class="tag-item">Gluteoplastia</span>
-                    <span class="tag-item">Lipoescultura</span>
-                  </div>
-                  <div class="tag-group">
-                    <span class="tag-item">Lipopapada</span>
-                    <span class="tag-item">Bichetomía</span>
-                    <span class="tag-item">Gluteoplastia</span>
-                  </div>
-                  <div class="tag-group">
-                    <span class="tag-item">Blefaroplastia</span>
-                    <span class="tag-item">Vaginoplastia</span>
-                    <span class="tag-item">Mentoplastia</span>
-                  </div>
-                  <div class="tag-group">
-                    <span class="tag-item">Otoplastia</span>
-                    <span class="tag-item">Pexia mamaria</span>
-                    <span class="tag-item">Ginecomastia</span>
-                  </div>
-                  <div class="tag-group">
-                    <span class="tag-item">Bictomía</span>
-                    <span class="tag-item">Liposucción</span>
-                    <span class="tag-item">Mommy Makeover</span>
-                  </div>
-                  <div class="tag-group">
-                    <span class="tag-item">Rinoplastia</span>
-                    <span class="tag-item">Gluteoplastia</span>
-                    <span class="tag-item">Lipoescultura</span>
-                  </div>
-                  <div class="tag-group">
-                    <span class="tag-item">Lipopapada</span>
-                    <span class="tag-item">Bichetomía</span>
-                    <span class="tag-item">Gluteoplastia</span>
-                  </div>
-                  <div class="tag-group">
-                    <span class="tag-item">Blefaroplastia</span>
-                    <span class="tag-item">Vaginoplastia</span>
-                    <span class="tag-item">Mentoplastia</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- ##### END EXPERTISE #####-->
-  <!-- ##### ASK DOCTORS #####-->
-  <section class="space-top is-xs" id="ask-doctors">
-    <div class="root">
-      <div class="deco"></div>
-      <div class="container fixed-width-md-up">
-        <div class="row spacing6 justify-content-center">
-          <div class="col-md-2 col-sm-9 pa-0">
-            <div class="wow fadeInLeftShort" data-offset="-100" data-delay="0.2s" data-duration="0.3s">
-              <div class="side-filter">
-                <h4 class="title-primary mt-10">Atención premium</h4>
-                <p>Además de conseguir tu cuerpo o rostro soñado, también podrás vivir una experiencia innovadora en la cirugía plástica:</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-9 col-md-10 pa-lg-6 py-0">
-            <div class="pa-6 py-0">
-              <div class="px-lg-8 px-3">
-                <h4 class="title-primary mt-10">Más beneficios</h4>
-              </div>
-              <div class="massonry">
-                <div class="row">
-                  {% for item in site.data.premium %}
-                  <div class="col-sm-6 px-lg-8 px-3 py-3">
-                    <div class="wow fadeInUpShort" data-wow-delay="0s" data-wow-duration="0.4s">
-                      <div class="card profile">
-                        <div class="person">
-                          <div class="avatar-img avatar">
-                            {{item.svg}}
-                          </div>
-                          <div class="name">
-                            <h4>{{item.title}}</h4>
-                            <p>{{item.p}}</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- ##### END ASK DOCTORS #####-->
-  <section class="space-top-short" id="testimonials">
-    <div class="root">
-      <div class="carousel">
-        <div class="slick-carousel" id="testimonial_carousel" data-length="9">
-          <div class="item show-lg-up">
-            <div class="item-props-first"></div>
-          </div>
-          {% for item in site.data.testimonios %}
-          <div class="item">
-            <div class="testi-card">
-              <div class="card paper">
-                <p>{{item.testimonio}}</p>
-                <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i></div>
-              </div>
-              <div class="person">
-                <div class="name">
-                  <h6>{{item.name}}</h6><span class="caption">{{item.origen}}</span>
-                </div>
-                <div class="avatar-img avatar">
-                  <img src="{{site.baseurl}}/img/{{item.img}}" alt="Cliente {{item.name}} - Hermes Gamba" >
-                </div>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-          <div class="item show-lg-up">
-            <div class="item-props-last"></div>
-          </div>
-        </div>
-      </div>
-      <div class="floating-title">
-        <div class="container fixed-width">
-          <div class="title">
-            <div class="title-icon-deco">
-              <div class="capsul"></div>
-              <div class="circle"></div>
-              <i class="material-icons icon">format_quote</i>
-              <h3>Mis pacientes felices</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {% include cta.html %}
-  <!-- ##### FACILITIES #####-->
-<section class="space-top" id="facility">
-  <div class="root">
-    <div class="blog-main">
-      <h2>Aprende más con el blog del cirujano plástico Hermes Gamba</h2>
-        {% for servicio in site.posts limit:3 %}
-        <article>
-          <a href="{{site.baseurl}}{{servicio.url}}">
-            <figure><img src="{{site.baseurl}}/img/{{servicio.hero}}" alt="{{servicio.alt}}" ></figure>
-            <h4 class="title">{{servicio.title}} </h4>
-          </a>
-        </article>
-        {% endfor %}
-        <a href="{{'blog'|relative_url}}" title="blog" class="dropbtn">Mira más artículos</a>
-    </div>
+<section class="wrapper about-home">
+  <img src="{{'img/hermes-gamba.webp'|relative_url}}" alt="Cirujano Colombiano Hermes Gamba" loading="lazy">
+  <div class="flow">
+    <small>Doctor Hermes Gamba</small>
+    <small>Cirujano plástico y estético</small>
+    <h2>Mi pasión es mejorar vidas</h2>
+    <blockquote>¡Bienvenidos y bienvenidas! Soy el Dr. Gamba, y me complace darte la bienvenida a nuestro espacio de transformación estética. Aquí, nos comprometemos a ofrecerte cuidados de alta calidad y resultados que resuenen con tus expectativas personales.</blockquote>
   </div>
-</section><!-- ##### END FACILITIES #####-->
+  <div class="flow">
+    <p>Tomar la decisión de un cambio estético es un momento crucial, y aquí te acompañamos con cuidado y atención personalizada. Nuestro enfoque es entregarte no solo una imagen renovada, sino también <strong>tranquilidad y confianza a lo largo de todo el proceso</strong>.</p>
+    <p>El Dr. Hermes Gamba, con una trayectoria de 15 años y más de 1,000 pacientes atendidos, se destaca por su empatía y precisión quirúrgica. <strong>Su práctica en cirugía plástica es reconocida por la calidad y el cuidado personal</strong> que cada paciente recibe.</p>
+  </div>
+  <div class="flow">
+    <p>Con una especialización en La Habana y un profundo compromiso con resultados excepcionales, el Dr. Gamba asegura que cada procedimiento se alinea con tus expectativas y objetivos personales. Esto nos convierte en la elección preferida para muchos.</p>
+    <p>Estamos aquí para guiarte hacia la versión de ti que siempre has deseado. <strong>¡Bienvenida a la clínica donde tu cambio empieza con confianza y termina con una gran sonrisa de!</strong></p>
+    {% include boton.html num="2" %}
+  </div>
+</section>
+<main class="wrapper flow procedimientos">
+  <h2>Con estos procedimientos lograremos el cambio deseado</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolores quidem rem saepe quam?</p>
+  <div class="galeria-home">
+    {% for item in site.data.servicios %}
+    <article class="flow">
+      <img src="{{site.baseurl}}/img/{{item.img}}" alt="{{item.alt}}" width="312" height="312" loading="lazy">
+      <h4>{{item.title}}</h4>
+      <a href="{{site.baseurl}}/{{item.title|downcase}}" class="boton boton_1">Conoce el procedimiento</a>
+    </article>
+    {% endfor %}
+  </div>
 </main>
+
+<section class="parallax-home">
+  <div class="contenido flow wrapper">
+    <h2>Recupera la Confianza en tu Reflejo</h2>
+    <h3>Porque mereces sentirte bien, dentro y fuera</h3>
+    <p>¿Te miras al espejo y sueñas con un cambio que refleje la belleza interna que siempre has sentido? No estás sola. Muchas pacientes llegan con la esperanza de alinear su autoimagen con su esencia verdadera. La cirugía plástica no solo es acerca de cambiar tu apariencia, <strong>es sobre desbloquear la confianza que impulsa cada paso que das</strong>.</p>
+    <p>Sabemos que el proceso puede parecer intimidante, pero aquí, tu seguridad y comodidad son prioridad. Con técnicas vanguardistas y un cuidado postoperatorio excepcional, <strong>te acompañamos en cada momento para que tu única preocupación sea imaginar los nuevos horizontes que abrirá tu transformación</strong>. Juntos, podemos crear un plan que celebre tu individualidad y te brinde los resultados naturales y armoniosos que buscas.</p>
+    {% include boton.html num="2" %}
+  </div>
+</section>
+
+<section class="wrapper flow procedimientos">
+  <h2>Te asesoro en mi blog personal</h2>
+  <p>Bienvenidos a nuestro espacio de transformación y bienestar, un rincón dedicado a explorar las posibilidades que la cirugía plástica y estética ofrece para alinear tu exterior con la vitalidad de tu ser interno. Soy el Dr. [Apellido], y a través de este blog, compartiré contigo los avances más recientes, consejos expertos y respuestas a las inquietudes que puedan surgir en tu camino hacia el cambio.</p>
+  <p>Aquí encontrarás historias de pacientes que, como tú, estaban buscando una solución personalizada para realzar su belleza única. Hablaremos sobre cómo cada procedimiento puede ser adaptado a tus necesidades, despejaremos mitos y te equiparemos con la información necesaria para tomar decisiones informadas sobre tu salud y tu imagen.</p>
+  
+  {% assign post1 = site.posts[0] %}
+    <article class="post-home">
+      <img
+      src="{{ site.baseurl }}/img/{{ post1.hero }}"
+      alt="{{ post1.alt }}"
+      loading="lazy"
+      width="160"
+      height="160"
+      >
+      <a href="{{site.baseurl}}{{ post1.url }}">
+        <h4>{{ post1.h1 | truncate: 68 }}</h4>
+      </a>
+    </article>
+    {% assign post2 = site.posts[1] %}
+    <article class="post-home">
+      <img
+      src="{{ site.baseurl }}/img/{{ post2.hero }}"
+      alt="{{ post2.alt }}"
+      loading="lazy"
+      width="160"
+      height="160"
+      >
+      <a href="{{site.baseurl}}{{ post2.url }}">
+        <h4>{{ post2.h1 | truncate: 68 }}</h4>
+      </a>
+    </article>
+    {% assign post3 = site.posts[2] %}
+    <article class="post-home">
+      <img
+      src="{{ site.baseurl }}/img/{{ post3.hero }}"
+      alt="{{ post3.alt }}"
+      loading="lazy"
+      width="160"
+      height="160"
+      >
+      <a href="{{site.baseurl}}{{ post3.url }}">
+        <h4>{{ post3.h1 | truncate: 68 }}</h4>
+      </a>
+    </article>
+  
+  <p>Este blog es un diálogo abierto, así que te invito a disfrutarlo. Juntos, podemos descubrir cómo la cirugía plástica no solo cambia contornos, sino que también puede mejorar la confianza y la calidad de vida.</p>
+</section>
+
+<section class="wrapper flow testimonios">
+  <h2>Nuestras pacientes te cuentan porqué están tan felices con sus resultados</h2>
+  <div>
+    <article>
+      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/C2lUCWnrfpl/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/C2lUCWnrfpl/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/C2lUCWnrfpl/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida por Hermes Gamba (@dr.hermesgamba)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+    </article>
+    <article>
+      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/C10aQuNrmRp/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/C10aQuNrmRp/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/C10aQuNrmRp/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida por Hermes Gamba (@dr.hermesgamba)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+    </article>
+    <article>
+      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/CyW10t4L3KC/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/CyW10t4L3KC/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/CyW10t4L3KC/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida por Hermes Gamba (@dr.hermesgamba)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+    </article>
+  </div>
+
+</section>
+<aside class="call-to-action wrapper">
+  <div class="flow">
+    <h2>Haz un gran cambio con tu cirugía plástica</h2>
+    <p>Mi pasión es mejorar vidas. Y la tuya será la siguiente historia que llena mi carrera de gratitud y felicidad.</p>
+  </div>
+  {% include boton.html num="2" %}
+</aside>
+

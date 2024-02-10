@@ -2,109 +2,25 @@
 layout: compress
 ---
 {% include head.html %}
-<body>
-  <div id="preloader" style="position: fixed; z-index: 10000; background: #fafafa; width: 100%; height: 100%"><img style="opacity: 0.5; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px)" src="{{'assets/images/loading.gif'|relative_url}}" alt="loading"></div>
-  <div class="m-application theme--light transition-page" id="app">
-    <div class="loading"></div>
-    <div class="m-content fresh fresh-var" id="main-wrap">
-      <div>
-        <div id="home"></div>
-        <div class="main-wrap">
-          <!-- ##### PARALLAX DOTS #####-->
-          <div class="parallax-dot-home">
-            <div class="parallax-wrap dots-wrap">
-              <div class="inner-parallax">
-                <div class="figure">
-                  <div>
-                    <div data-enllax-ratio="0.2" data-enllax-type="foreground">
-                      <a href="{{site.baseurl}}/" title="Inicio Hermes Gamba">
-                        <img src="{{site.baseurl}}/assets/images/decoration/dot-deco.svg" alt="dot deco" >
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- ##### END PARALLAX DOTS #####-->
-          <!-- ##### HEADER #####-->
-          <!-- #### HEADER ####-->
-          <div class="sidenav mobile-nav" id="slide-menu">
-            <ul class="collection">
-              <li class="dropd">
-                <button class="dropbtn">Servicios</button>
-                <div class="dropd-content">
-                  <a href="{{'mommy-makeover'|relative_url}}">Mommy makeover</a>
-                  <a href="{{'mamoplastia'|relative_url}}">Mamoplastia</a>
-                  <a href="{{'gluteoplastia'|relative_url}}">Gluteoplastia</a>
-                  <a href="{{'lipoescultura'|relative_url}}">Lipoescultura</a>
-                </div>
-              </li>
-              <li class="collection-item" style="animation-duration: 0.75s"><a class="sidenav-close waves-effect menu-list" href="{{'blog'|relative_url}}">blog</a></li>
-              <li class="collection-item" style="animation-duration: 1s"><a class="sidenav-close waves-effect menu-list" href="{{'contacto'|relative_url}}">contacto</a></li>
-              <!-- <li class="collection-item" style="animation-duration: 1s"><a class="waves-effect menu-list" href="contact.html">contacto</a></li> -->
-            </ul>
-          </div><!-- #### END HEADER ####-->
-          <header class="app-bar header" id="header">
-            <div class="container">
-              <div class="header-content">
-                <nav class="nav-logo">
-                  <button class="mobile-menu btn-icon waves-effect hamburger hamburger--spin show-sm-down" id="mobile_menu" type="button">
-                    <span class="hamburger-box"><span class="bar hamburger-inner"></span></span>
-                  </button>
-                  <div class="logo scrollnav">
-                    <a href="{{site.baseurl}}/" title="Inicio Hermes Gamba"><img src="{{site.baseurl}}/assets/images/medical-logo.png" alt="logo" >Hermes Gamba</a>
-                  </div>
-                </nav>
-                <nav class="nav-menu">
-                  <div class="scrollactive-nav show-md-up scrollnav">
-                    <ul>
-                      <li class="dropd">
-                        <button class="dropbtn">Servicios</button>
-                        <div class="dropd-content">
-                          <a href="{{'mommy-makeover'|relative_url}}">Mommy makeover</a>
-                          <a href="{{'mamoplastia'|relative_url}}">Mamoplastia</a>
-                          <a href="{{'gluteoplastia'|relative_url}}">Gluteoplastia</a>
-                          <a href="{{'lipoescultura'|relative_url}}">Lipoescultura</a>
-                        </div>
-                      </li>
-                      <li><a class="btn btn-flat anchor-link waves-effect" href="{{'blog'|relative_url}}">blog</a></li>
-                      <li><a class="btn btn-flat anchor-link waves-effect" href="{{'contacto'|relative_url}}">contacto</a></li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-            </div>
-          </header>
-          <!-- ##### END HEADER #####-->
-        </div><!-- ##### PAGE NAV #####-->
-            {{ content }}
-            {% include footer.html %}
-      </div>
-    </div>
-  </div>
-</div><!-- Scripts-->
-<script>
-  $('ul.nav li.dropdown').hover(function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-}, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-});
-</script>
-  
-  <script src="/assets/js/vendors/jquery.min.js"></script>
-  <script src="/assets/js/vendors/bootstrap.min.js"></script>
-  <script src="/assets/js/vendors/enquire.min.js"></script>
-  <script src="/assets/js/vendors/jquery.enllax.min.js"></script>
-  <script src="/assets/js/vendors/jquery.touchSwipe.min.js"></script>
-  <script src="/assets/js/vendors/pace.min.js"></script>
-  <script src="/assets/js/vendors/slick.min.js"></script>
-  <script src="/assets/js/vendors/wow.min.js"></script>
-  <script src="/assets/js/vendors/jquery.navScroll.min.js"></script>
-  <script src="/assets/js/vendors/parallax.min.js"></script>
-  <script src="/assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-  <script src="/assets/js/vendors/materialize.js"></script>
-  <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-  <script src="/assets/js/scripts.js"></script>
-</body>
-
+  <body>
+    <span class="toggle" onclick="openNav()">&#9776;</span>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2DVS2W5"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  {% include nav.html %}
+  {% include header.html %}
+    {{ content }}
+  {% include footer.html %}
+  <a href="#">{% include boton-up.html %}</a>
+  </body>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "320px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
 </html>

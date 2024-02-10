@@ -1,46 +1,13 @@
-<!-- ##### ABOUT #####-->
-<div class="space-top-short is-md seccion" id="about">
-  <div class="root">
-    <div class="container fixed-width">
-      <div class="row">
-        <div class="col-md-5 py-md-6 px-sm-6 px-0">
-          <div class="text-center">
-            <div>
-              <div class="title-deco">
-                <h3 class="bg-img">
-                  <span>Detalles de la {{include.operacion}}</span>
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7 pa-6">
-          <h4 class="title-default use-text-subtitle">{{include.detalles}}</h4>
-          <h5 class="title-default py-3">Algunos datos adicionales</h5>
-          <div class="counter-wrap">
-            <div class="container fixed-width">
-              <div class="row justify-content-center align-items-center">
-                <div class="col ma-sm-0 my-4">
-                  <div class="counter-item deco">
-                    <div class="text">
-                      <h3>{{include.detalle1}}</h3>
-                      <p>{{include.dato1}}</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col ma-sm-0 my-4">
-                  <div class="counter-item deco">
-                    <div class="text">
-                      <h3>{{include.detalle2}}</h3>
-                      <p>{{include.dato2}}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="servicios-seccion">
+  <div class="flow">
+    <h2>Detalles de la {{include.operacion}}</h2>
+    <p>{{include.detalles}}</p>
   </div>
-</div><!-- ##### END ABOUT #####-->
+  <div class="flow">
+    <h3>Algunos datos adicionales de la {{include.operacion}}</h3>
+    <h4>{{include.detalle1}}</h4>
+    <p>{{include.dato1}}</p>
+    <h4>{{include.detalle2}}</h4>
+    <p>{{include.dato2}}</p>
+  </div>
+</div>

@@ -3,9 +3,9 @@ layout: servicio
 title: "Mamoplastia: Tu Proceso de Transformación Estética y Personal"
 description: Transforma tu apariencia y confianza con la mamoplastia. Conoce cómo el cirujano Hermes Gamba puede ayudarte. ¡Haz clic para más información!
 h1: Luce unos senos hermosos con tu mamoplastia
-h2: El doctor Hermes Gamba te ayuda a conseguir la mamoplastia que tanto deseas
+h2: El doctor Hermes Gamba te ayuda a conseguir la mamoplastia espectacular
 intro: ¿Estás considerando una mamoplastia? No te preocupes por los riesgos. Te enseñaré los resultados que obtendrás y te ayudaré a entender cada aspecto con claridad.
-hero: caso12.webp
+hero: senos-caidos.webp
 alt: Foto de una mamoplastia
 ---
 ## Conoce la Mamoplastia
@@ -24,6 +24,8 @@ Seguramente ya sabes que esta operación se realiza sobre tus senos. Además, ti
 | Reducción           | Disminuir y remodelar tus senos  | Alivia dolores de espalda y mejora la proporción corporal |
 | Reconstrucción      | Reconstruir tus senos, usualmente después de una mastectomía | Restaura la forma después de una cirugía de cáncer de seno |
 
+{% include video-insta.html video="CzFMM7YrVmb" %}
+
 ## Profundizando en la Mamoplastia de Aumento
 
 Este procedimiento es muy popular, y por una buena razón. Mejora la forma y el tamaño de tus senos, y con ello, tu autoestima.
@@ -33,8 +35,6 @@ Este procedimiento es muy popular, y por una buena razón. Mejora la forma y el 
 - **Implantes:** Variedad de tamaños y formas.
 - **Técnicas:** Submuscular, subglandular, dual plane.
 - **Expectativas Realistas:** Entender limitaciones y posibilidades.
-
-{% include puntos.html operacion="mamoplastia" detalles="El procedimiento es ambulatorio, es decir, la paciente sale el mismo dia para su casa." detalle1="Cuidados" dato1="3 meses" detalle2="Duración" dato2="1 hora" %}
 
 ## La Mamoplastia de Reducción
 
@@ -47,6 +47,8 @@ Este procedimiento implica la **reducción de tejido**, centrada en la eliminaci
 ### Beneficios de la Mamoplastia de reducción
 
 Los principales beneficios incluyen un significativo _alivio del dolor_ y una notable mejora en la _actividad física_. Estos cambios no solo contribuyen a una mejor calidad de vida, sino que también promueven un bienestar general, ayudando a los pacientes a sentirse más cómodos y activos en su vida diaria.
+
+{% include puntos.html operacion="mamoplastia" detalles="El procedimiento es ambulatorio, es decir, la paciente sale el mismo dia para su casa." detalle1="Cuidados" dato1="3 meses" detalle2="Duración" dato2="1 hora" %}
 
 ## Mamoplastia y Hombres
 
@@ -66,9 +68,9 @@ Un campo amplio que abarca desde la reconstrucción post-mastectomía hasta la e
 - **Reconstrucción con Implantes o Tejido Autólogo.**
 - **Elevación:** Mejora la firmeza y posición de los senos caídos.
 
-## Seguridad y Riesgos
+## Seguridad y Riesgos de la Mamoplastia
 
-![Mamoplastias realizadas por Hermes Gamba]({{'assets/images/mamoplastia.webp'|relative_url}})
+{% include cta.html %}
 
 Como cualquier cirugía, tiene sus riesgos. Pero no te preocupes, aquí te explico cómo minimizarlos.
 
@@ -77,7 +79,9 @@ Como cualquier cirugía, tiene sus riesgos. Pero no te preocupes, aquí te expli
 - **Evaluación de Riesgos:** Conversación abierta con tu cirujano.
 - **Recuperación Segura:** Seguir instrucciones postoperatorias.
 
-## Aspectos Psicológicos
+{% include video-insta.html video="C0U4_N0rxv_" %}
+
+## Aspectos Psicológicos Que Considerar Antes de la Mamoplastia
 
 Este paso no es solo físico, sino también emocional. Vamos a abordar cómo te sientes al respecto.
 
@@ -86,7 +90,7 @@ Este paso no es solo físico, sino también emocional. Vamos a abordar cómo te 
 - **Apoyo Emocional:** Habla con tu cirujano, amigos y familia.
 - **Expectativas:** Entender el proceso y lo que puedes esperar.
 
-## Elección del Cirujano y la Clínica
+## Elección del Cirujano y la Clínica Para Tu Mamoplastia
 
 Un factor clave en tu viaje. La calidad del cirujano y la clínica determinarán tus resultados.
 
@@ -95,9 +99,7 @@ Un factor clave en tu viaje. La calidad del cirujano y la clínica determinarán
 - **Credenciales del Cirujano:** Experiencia y testimonios.
 - **Calidad de la Clínica:** Acreditación y tecnología.
 
-{% include cta.html %}
-
-## Preparación para la Cirugía
+## Preparación para la Cirugía de la Mamoplastia
 
 Prepararse adecuadamente asegura el éxito de tu procedimiento.
 
@@ -114,6 +116,8 @@ Prepararse adecuadamente asegura el éxito de tu procedimiento.
 | Elevación      | Mejora la firmeza y posición de los senos caídos | Mejora la estética y la confianza     |
 
 ## Toma la Decisión de Hacer tu Mamoplastia Ahora
+
+![Mamoplastias realizadas por Hermes Gamba]({{'img/mamoplastia-hermes-gamba.webp'|relative_url}})
 
 La mamoplastia es un camino hacia una nueva tú. Recuerda, esta decisión es tuya y mereces toda la información para tomarla con confianza.
 

@@ -6,6 +6,7 @@ category: lipoescultura
 h1: "Esculpe tu Cuerpo: Lipoescultura de Brazos y Espalda con Precisión"
 hero: lipoescultura-brazos.webp
 alt: Obtener una beca para estudiar inglés en Canadá
+published: no
 excerpt: Mejora tu confianza con una lipoescultura de brazos. Descubre cómo este procedimiento puede cambiar tu vida. ¡Haz tu cita hoy mismo!
 ---
 ## Revoluciona Tu Imagen: Lipoescultura de Brazos y Espalda
