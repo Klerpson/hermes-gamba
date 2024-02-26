@@ -269,6 +269,40 @@ hr {
   margin: 2em auto;
 }
 
+.boton-whatsapp {
+  position: fixed;
+  bottom: 8rem;
+  right: 12px;
+  z-index: 100;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390,0.575,0.565,1.000) 0.5s 6 alternate-reverse both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390,0.575,0.565,1.000) 0.5s 6 alternate-reverse both;
+  transition: all .2s ease-in-out;
+  width: max-content;
+  text-decoration: none;
+}
+
+.boton-whatsapp img{
+  display: inline;
+}
+
+@media screen and (width >=800px) {
+  .boton-whatsapp::before {
+    content: "Escríbenos";
+    font-size: 14px;
+    color: white;
+    background-color: #2eda2e70;
+    border: 3px solid white;
+    padding: 8px;
+    border-radius: 8px;
+  }
+}
+
+.boton-whatsapp:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(190, 190, 190, .7));
+  filter: drop-shadow(5px 5px 5px rgba(190, 190, 190, .7));
+}
+
+
 /* background-color: var(--secundario);
 box-shadow: 0 0 0 100vmax var(--secundario);
 clip-path: inset(0 -100vmax); */
