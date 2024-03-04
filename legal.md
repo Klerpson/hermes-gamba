@@ -96,11 +96,11 @@ Este Sitio y su contenido se rigen por la legislación de Colombia. Todo posible
 
 ## Cliente, Proveedor y Colaborador
 
-## PROTECCION DE DATOS PERSONALES
+## PROTECCIÓN DE DATOS PERSONALES
 
 La Ley 1581 de 2012 y sus Decretos Reglamentarios, pretenden regular el manejo de datos personales en Colombia, con el fin de proteger el derecho fundamental al habeas data o a la identidad informática. Teniendo en cuenta que {{page.propietario}}, cuenta actualmente con bases de datos en las que reposan datos personales que han sido suministrados por usted en el pasado, en cumplimiento de lo establecido en las normas mencionadas, nos permitimos solicitar su autorización para continuar con el tratamiento de sus datos.
 
-## AUTORIZACION PARA EL TRATAMIENTO DE DATOS PERSONALES Y SENSIBLES
+## AUTORIZACIÓN PARA EL TRATAMIENTO DE DATOS PERSONALES Y SENSIBLES
 
 – En mi calidad de TITULAR declaro de manera libre, voluntaria, expresa, inequívoca que se me ha informado de manera clara y comprensible que tengo derecho a conocer, actualizar y rectificar los datos personales y sensibles proporcionados a {{page.propietario}}, a solicitar prueba de esta autorización, a solicitar información sobre el uso que se le ha dado a mis datos personales, a presentar quejas ante la Superintendencia de Industria y Comercio por el uso indebido de mis datos personales, a revocar esta autorización o solicitar la supresión de los datos personales suministrados y a acceder de forma gratuita a los mismos.
 
