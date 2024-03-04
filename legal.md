@@ -1,6 +1,6 @@
 ---
 layout: servicio
-title: Términos y Codiciones de Uso | hermesgamba.com
+title: Términos y Condiciones de Uso | hermesgamba.com
 description: Condiciones de uso de la página hermesgamba.com
 h1: Término y condiciones, privacidad y aspectos legales del uso de hermesgamba.com
 noindex: true
