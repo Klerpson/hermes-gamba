@@ -12,11 +12,11 @@ alt: Foto de una blefaroplastia
 
 ¿Sientes que tus ojos muestran signos de envejecimiento? **La blefaroplastia, o cirugía de párpados, puede ayudarte a deshacerte de la piel caída**, rejuveneciendo tu rostro y aumentando tu autoestima. Actúa en los párpados superiores e inferiores para dar un aspecto fresco y juvenil.
 
-{% include video-insta.html video="CtsPWbNND4z" %}
-
 En la sociedad actual, donde la primera impresión y la apariencia juvenil tienen un gran peso, este tratamiento ofrece una solución efectiva para aquellos que buscan mejorar su mirada y, con ello, su expresión facial global.
 
 ### ¿Qué es la Blefaroplastia y Cómo Puede Ayudarte?
+
+{% include video-insta.html video="CtsPWbNND4z" %}
 
 La blefaroplastia no solo está dirigida a aquellos que, por razones estéticas, desean una mirada más despejada y rejuvenecida, sino también a quienes la necesitan por motivos funcionales, como la mejora de la visión obstruida por párpados caídos.
 
@@ -36,17 +36,15 @@ Optar por una blefaroplastia trae consigo numerosos beneficios, desde la mejora 
 
 **La eliminación de bolsas bajo los ojos, la reducción de párpados caídos y la corrección de asimetrías** son solo algunos de los cambios estéticos que se pueden lograr. Funcionalmente, al remover el exceso de piel que obstruye la visión, los pacientes experimentan una mejora significativa en su campo visual.
 
-![Blefaroplastia hecha por Hermes Gamba]({{'img/blefaroplastia-gamba.webp'|relative_url}} "Blefaroplastia Hermes Gamba")
-
 ## ¿Quién Puede Optar por la Blefaroplastia?
 
 Los buenos candidatos son aquellos con buena salud general y expectativas realistas. No deben fumar, ya que afecta a la cicatrización. El cirujano determinará si es apto para la blefaroplastia.
 
+{% include video-insta.html video="CkeicIGNQpY" %}
+
 ## Qué Esperar de la Cirugía
 
 Dura entre una y dos horas bajo anestesia local o sedación. Se realizan pequeñas incisiones a lo largo de los pliegues naturales de los párpados para retirar el exceso de piel y grasa, y luego se cierran con suturas. **La recuperación suele durar una o dos semanas**.
-
-{% include video-insta.html video="CkeicIGNQpY" %}
 
 ### Precios aproximados de esta operación
 
@@ -70,6 +68,8 @@ Es importante consultar con un profesional médico como el doctor Hermes Gamba p
 Si no es candidato para la blefaroplastia, hay otros tratamientos como rellenos inyectables, neurotoxinas, tratamientos con láser y peelings químicos que pueden mejorar la apariencia de los ojos y la piel circundante.
 
 ## Haz la Blefaroplastia con Hermes Gamba
+
+![Blefaroplastia hecha por Hermes Gamba]({{'img/blefaroplastia-gamba.webp'|relative_url}} "Blefaroplastia Hermes Gamba")
 
 La blefaroplastia puede rejuvenecer tus ojos y mejorar tu autoestima. La mayoría de los pacientes están satisfechos con los resultados. Si estás interesado, [contacta al cirujano plástico cualificado Hermes Gamba]({{'contacto'|relative_url}}) para más información.
 
