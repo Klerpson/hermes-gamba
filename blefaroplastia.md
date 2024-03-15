@@ -5,7 +5,7 @@ description: "¡Deshazte de los párpados caídos y rejuvenece tu mirada con la 
 h1: "Blefaroplastia: Mejora tu Autoestima con Ojos Rejuvenecidos"
 h2: "¿Cansado de lucir fatigado? La blefaroplastia es la solución"
 intro: La blefaroplastia puede hacer maravillas por tu autoestima. ¡No pierdas más tiempo! Descubre cómo mejorar tu apariencia y confianza aquí.
-hero: blefaroplastia.webp
+hero: blefaroplastia-hermes.webp
 alt: Foto de una blefaroplastia
 ---
 ## Blefaroplastia: Recupera la Juventud en tu Mirada

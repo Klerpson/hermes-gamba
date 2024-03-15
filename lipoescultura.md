@@ -51,6 +51,8 @@ La lipoescultura se puede realizar en diferentes áreas del cuerpo, cada una con
 
 Esta técnica se enfoca en eliminar la grasa acumulada en los brazos y la espalda, áreas que a menudo son difíciles de tonificar incluso con ejercicio regular.
 
+![Lipoescultura de rostro por Hermes Gamba]({{'img/lipoinyeccion.webp'|relative_url}} "Lipoinyección Hermes Gamba")
+
 ### Lipoescultura de Muslos y Piernas
 
 La lipoescultura de muslos y piernas ayuda a esculpir estas áreas, eliminando la grasa no deseada y mejorando la forma y el contorno de las piernas.
