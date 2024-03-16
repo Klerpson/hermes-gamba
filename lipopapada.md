@@ -22,6 +22,8 @@ La buena noticia es que las técnicas avanzadas de hoy permiten abordarla de man
 
 ## Tipos de Tratamientos para la Lipopapada
 
+![Lipopapada]({{ 'img/lipopapada-gamba.webp'|relative_url }} "Lipo papada")
+
 ### Lipopapada Enzimática
 
 La **lipopapada enzimática** es una técnica revolucionaria que utiliza enzimas para descomponer la grasa de manera no invasiva. Este procedimiento, ideal para quienes buscan evitar el quirófano, ofrece resultados visibles con un mínimo de tiempo de recuperación.
@@ -48,8 +50,6 @@ Existen también tratamientos no quirúrgicos como las **inyecciones de ácido d
 
 **Nota**: Los precios son aproximados y pueden variar dependiendo de la clínica, la experiencia del especialista, el método de tratamiento específico utilizado y el alcance del procedimiento. Se recomienda consultar con un profesional para obtener una cotización más precisa basada en las necesidades individuales.
 
-![Lipopapada]({{ 'img/lipopapada-gamba.webp'|relative_url }} "Lipo papada")
-
 ## Preparación para el Procedimiento Lipopapada
 
 Antes de someterse a cualquier tratamiento para la lipopapada, es fundamental una [consulta inicial con el cirujano especialista Hermes Gamba]({{'contacto'|relative_url}}).
@@ -72,13 +72,13 @@ Los cuidados post-procedimiento incluyen aplicar compresas frías, mantener la c
 
 ### Cuidados Postoperatorios Detallados
 
+![Lipo papada]({{ 'img/lipo-papada.webp'|relative_url }} "Lipopapada cirugia")
+
 - **Día 1 a 3**: Aplicación de hielo cada hora durante los primeros tres días para reducir la hinchazón. Uso de medicación antiinflamatoria según prescripción médica.
 - **Semana 1 a 2**: Evitar actividades físicas intensas y exposición al sol. Seguir una dieta suave para minimizar la movilidad facial y la tensión en las suturas.
 - **Seguimiento Médico**: Consultas de seguimiento para monitorear la recuperación y retirar suturas si es necesario.
 
 ## Resultados Esperados de la Lipopapada
-
-![Lipo papada]({{ 'img/lipo-papada.webp'|relative_url }} "Lipopapada cirugia")
 
 Los resultados pueden variar, pero generalmente son visibles después de unas semanas, una vez que la hinchazón ha disminuido. La mejora en el contorno de la mandíbula y la reducción de la papada aportan un aspecto rejuvenecido y más definido al rostro.
 
@@ -89,6 +89,8 @@ Los resultados pueden variar, pero generalmente son visibles después de unas se
 
 ## Riesgos y Complicaciones del Procedimiento de la Lipopapada
 
+![Lipo de papada]({{ 'img/lipo-de-papada.webp'|relative_url }} "Lipopapada cirugia")
+
 Como con cualquier procedimiento médico, existen riesgos asociados, aunque son mínimos cuando el tratamiento es realizado por un profesional cualificado. Las complicaciones pueden incluir infección, asimetría, o insatisfacción con los resultados, entre otros.
 
 ### Riesgos y Complicaciones: Datos y Estadísticas
@@ -97,8 +99,6 @@ Como con cualquier procedimiento médico, existen riesgos asociados, aunque son 
 - **Manejo de Riesgos**: La elección de un cirujano cualificado y el cumplimiento estricto de las recomendaciones postoperatorias son cruciales para minimizar los riesgos asociados con la lipopapada.
 
 ## Marcando el Futuro: Un Rostro Definido
-
-![Lipo de papada]({{ 'img/lipo-de-papada.webp'|relative_url }} "Lipopapada cirugia")
 
 La búsqueda de un contorno facial más definido y la eliminación de la lipopapada no solo es posible, sino que está al alcance gracias a los avances tecnológicos y médicos actuales.
 
