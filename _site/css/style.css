@@ -478,11 +478,15 @@ clip-path: inset(0 -100vmax); */
   position: relative;
   display: grid;
   justify-items: center;
+  justify-content: center;
+  width: min(100%, 320px);
 }
 
 .galeria-home article img{
   box-shadow: var(--shadow);
   transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  object-fit: cover;
+  width: 100%;
 }
 
 .galeria-home article:hover img{
@@ -1023,18 +1027,20 @@ clip-path: inset(0 -100vmax); */
 .tiler {
   display: inline-block;
   visibility: hidden;
-  width: 33.3%;
+  width: min(100%, 400px);
   margin: auto;
   overflow: hidden;
-  max-height: 360px;
+  max-height: 400px;
 }
 
 .tiler img {
   display: block;
   margin: auto;
-  max-width: 100%;
+  width: 100%;
+  height: 400px;
   visibility: visible;
   object-fit: cover;
+  object-position: center bottom;
 }
 
 .tiler .cell-grid {
@@ -1080,8 +1086,8 @@ clip-path: inset(0 -100vmax); */
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  width: min(100%, 1240px);
-  padding: 2em;
+  width: min(100%, 1260px);
+  padding: 1em;
   margin: auto;
   justify-content: center;
 }

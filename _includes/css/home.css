@@ -42,11 +42,15 @@
   position: relative;
   display: grid;
   justify-items: center;
+  justify-content: center;
+  width: min(100%, 320px);
 }
 
 .galeria-home article img{
   box-shadow: var(--shadow);
   transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  object-fit: cover;
+  width: 100%;
 }
 
 .galeria-home article:hover img{
