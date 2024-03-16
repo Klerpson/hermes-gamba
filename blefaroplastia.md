@@ -40,9 +40,9 @@ Optar por una blefaroplastia trae consigo numerosos beneficios, desde la mejora 
 
 Los buenos candidatos son aquellos con buena salud general y expectativas realistas. No deben fumar, ya que afecta a la cicatrización. El cirujano determinará si es apto para la blefaroplastia.
 
-{% include video-insta.html video="CkeicIGNQpY" %}
-
 ## Qué Esperar de la Cirugía
+
+![Blefaroplastia hecha por Hermes Gamba]({{'img/blefaroplastia-gamba.webp'|relative_url}} "Blefaroplastia Hermes Gamba")
 
 Dura entre una y dos horas bajo anestesia local o sedación. Se realizan pequeñas incisiones a lo largo de los pliegues naturales de los párpados para retirar el exceso de piel y grasa, y luego se cierran con suturas. **La recuperación suele durar una o dos semanas**.
 
