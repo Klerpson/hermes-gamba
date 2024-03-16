@@ -40,16 +40,6 @@ La **liposucción tradicional** sigue siendo una opción para quienes buscan res
 
 Existen también tratamientos no quirúrgicos como las **inyecciones de ácido desoxicólico**, que disuelven la grasa gradualmente, y el uso de ultrasonido, que ayuda a descomponer la grasa sin necesidad de incisiones.
 
-## Consideraciones del Precio del Procedimiento de la Lipopapada
-
-| Ubicación       | Método de Tratamiento | Costo Aproximado       |
-|-----------------|-----------------------|------------------------|
-| Estados Unidos  | General               | $1,500 - $5,000 USD    |
-| México          | General               | $800 - $2,500 USD      |
-| Colombia        | General               | $700 - $2,000 USD      |
-
-**Nota**: Los precios son aproximados y pueden variar dependiendo de la clínica, la experiencia del especialista, el método de tratamiento específico utilizado y el alcance del procedimiento. Se recomienda consultar con un profesional para obtener una cotización más precisa basada en las necesidades individuales.
-
 ## Preparación para el Procedimiento Lipopapada
 
 Antes de someterse a cualquier tratamiento para la lipopapada, es fundamental una [consulta inicial con el cirujano especialista Hermes Gamba]({{'contacto'|relative_url}}).

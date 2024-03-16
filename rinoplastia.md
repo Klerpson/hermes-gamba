@@ -44,17 +44,6 @@ Para ajustes menores, la rinoplastia no quirúrgica utiliza inyecciones de relle
 | **Reputación y Experiencia del Cirujano** | Cirujanos con alta demanda y años de experiencia suelen cobrar más.                                                                          |
 | **Ubicación Geográfica de la Clínica** | Los costos varían significativamente de una región a otra, siendo más altos en ciudades grandes y áreas metropolitanas.                      |
 
-## Rinoplastia: Costos Aproximados por País
-
-| País          | Costo Aproximado (USD) |
-|---------------|------------------------|
-| **Estados Unidos** | $5,000 - $15,000       |
-| **Canadá**         | $4,000 - $10,000       |
-| **Reino Unido**    | $4,500 - $7,000        |
-| **Colombia**       | $2,000 - $5,000        |
-| **México**         | $1,500 - $4,000        |
-| **Turquía**        | $2,000 - $4,500        |
-
 *Nota: Estos costos son aproximaciones y pueden variar dependiendo de factores específicos como la complejidad del procedimiento, la reputación del cirujano y la ubicación de la clínica. Es importante realizar una consulta inicial para obtener una cotización detallada.*
 
 {% include video-insta.html video="CnF-apfpkoo" %}

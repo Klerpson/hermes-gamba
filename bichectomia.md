@@ -48,18 +48,6 @@ Es crucial una evaluación médica detallada antes de decidirse por una bichecto
 
 Si bien no hay una edad específica para realizarla, es recomendable que el paciente haya completado su desarrollo facial, lo que generalmente ocurre a mediados de los veinte años.
 
-## Precios y Factores que Afectan el Costo de la Bichecthomía
-
-El costo de una bichectomía puede variar ampliamente según diversos factores, i*ncluyendo la ubicación geográfica de la clínica, la experiencia del cirujano y los servicios postoperatorios* incluidos en el paquete quirúrgico.
-
-| Ubicación        | Rango de Precios      | Incluye |
-|------------------|-----------------------|----------------------------------------------------------|
-| Estados Unidos   | $1,500 - $5,000 USD   | Procedimiento quirúrgico, consultas preoperatorias, análisis, uso de instalaciones, seguimiento postoperatorio. |
-| México           | $800 - $2,500 USD     | Procedimiento quirúrgico, consultas preoperatorias, análisis, uso de instalaciones, seguimiento postoperatorio. |
-| Colombia         | $700 - $2,000 USD     | Procedimiento quirúrgico, consultas preoperatorias, análisis, uso de instalaciones, seguimiento postoperatorio. |
-
-**Nota**: Los precios son aproximaciones y pueden variar dependiendo de la clínica, la experiencia del especialista, el método de tratamiento específico utilizado, y el alcance del procedimiento. Te recomendamos consultar con el cirujano Hermes Gamba para obtener una cotización más precisa basada en las necesidades individuales.
-
 {% include cta.html %}
 
 ## Proceso Preoperatorio en la Bichecthomía

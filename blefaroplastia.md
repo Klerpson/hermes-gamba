@@ -46,30 +46,11 @@ Los buenos candidatos son aquellos con buena salud general y expectativas realis
 
 Dura entre una y dos horas bajo anestesia local o sedación. Se realizan pequeñas incisiones a lo largo de los pliegues naturales de los párpados para retirar el exceso de piel y grasa, y luego se cierran con suturas. **La recuperación suele durar una o dos semanas**.
 
-### Precios aproximados de esta operación
-
-Estos precios son solo aproximados y pueden variar según la ubicación exacta, la experiencia del cirujano, la complejidad del procedimiento y otros factores.
-
-Es importante consultar con un profesional médico como el doctor Hermes Gamba para obtener un presupuesto específico y discutir cualquier pregunta o inquietud antes de proceder con la cirugía.
-
-* Estados Unidos: $3,000 - $7,000 USD
-* Reino Unido: £2,000 - £5,000 GBP
-* Canadá: $3,500 - $6,500 CAD
-* Australia: $4,000 - $8,000 AUD
-* Alemania: €2,500 - €6,000 EUR
-* Francia: €2,000 - €5,000 EUR
-* España: €2,000 - €5,000 EUR
-* México: $30,000 - $60,000 MXN
-* Brasil: R$8,000 - R$15,000 BRL
-* India: ₹50,000 - ₹1,00,000 INR
-
 ## Alternativas a la Blefaroplastia
 
 Si no es candidato para la blefaroplastia, hay otros tratamientos como rellenos inyectables, neurotoxinas, tratamientos con láser y peelings químicos que pueden mejorar la apariencia de los ojos y la piel circundante.
 
 ## Haz la Blefaroplastia con Hermes Gamba
-
-![Blefaroplastia hecha por Hermes Gamba]({{'img/blefaroplastia-gamba.webp'|relative_url}} "Blefaroplastia Hermes Gamba")
 
 La blefaroplastia puede rejuvenecer tus ojos y mejorar tu autoestima. La mayoría de los pacientes están satisfechos con los resultados. Si estás interesado, [contacta al cirujano plástico cualificado Hermes Gamba]({{'contacto'|relative_url}}) para más información.
 
