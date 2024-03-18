@@ -26,7 +26,7 @@ Este procedimiento puede realizarse tanto en los párpados superiores como en lo
 
 Desde su concepción, la blefaroplastia ha evolucionado significativamente. Inicialmente, los procedimientos eran invasivos y con tiempos de recuperación largos.
 
-Hoy en día, gracias a los avances tecnológicos y técnicas mejoradas, se realizan inter**venciones más precisas, con resultados naturales y períodos de recuperación reducidos**.
+Hoy en día, gracias a los avances tecnológicos y técnicas mejoradas, se realizan **intervenciones más precisas, con resultados naturales y períodos de recuperación reducidos**.
 
 ## Beneficios de la Blefaroplastia
 
