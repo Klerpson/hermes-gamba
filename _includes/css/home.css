@@ -36,6 +36,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 2em;
+  padding-top: 2em;
 }
 
 .galeria-home article{
@@ -43,7 +44,7 @@
   display: grid;
   justify-items: center;
   justify-content: center;
-  width: min(100%, 320px);
+  width: min(100%, 296px);
 }
 
 .galeria-home article img{

@@ -205,6 +205,7 @@ table th {
   border-radius: 6em;
   transition: all .2s;
   font-weight: bold;
+  text-align: center;
 }
 
 .boton:hover {
@@ -472,6 +473,7 @@ clip-path: inset(0 -100vmax); */
   justify-content: center;
   flex-wrap: wrap;
   gap: 2em;
+  padding-top: 2em;
 }
 
 .galeria-home article{
@@ -479,7 +481,7 @@ clip-path: inset(0 -100vmax); */
   display: grid;
   justify-items: center;
   justify-content: center;
-  width: min(100%, 320px);
+  width: min(100%, 296px);
 }
 
 .galeria-home article img{
