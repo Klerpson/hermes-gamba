@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5{
 h1 {
   font-size: clamp(2.2rem, 1.982rem + 1.09vw, 2.8rem);
   margin: 0;
+  width: min(100%, 600px);
 }
 
 h2 {
@@ -308,15 +309,12 @@ hr {
 box-shadow: 0 0 0 100vmax var(--secundario);
 clip-path: inset(0 -100vmax); */
 .header-home{
-  min-height: 80vh;
+  min-height: 70vh;
   width: 100%;
-  background: linear-gradient(270deg, white, var(--accion), white, var(--accion));
-  background-size: 800% 800%;
-  animation: moveLight 30s ease infinite;
-  background-color: #ffffff20;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  background: url('/img/doctor-hermes-gamba.webp');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #ffffff70;
 }
 
 @keyframes moveLight {
@@ -332,29 +330,21 @@ clip-path: inset(0 -100vmax); */
 }
 
 .header-home div{
-  width: min(100%, 600px);
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 2em;
-  align-content: center;
-  justify-items: flex-end;
-  text-align: right;
   padding: 2em;
-}
-
-@media screen and (max-width: 1124px) {
-  .header-home div{
-    text-align: center;
-    justify-items: center;
-  }
+  color: white;
 }
 
 .header-home div p{
   font-weight: 700;
+  width: min(100%, 600px);
 }
 
 .header-home img{
-  width: min(100%, 502px);
-  align-self: flex-end;
+  width: min(100%, 600px);
 }
 
 .header-contacto{
@@ -393,7 +383,7 @@ clip-path: inset(0 -100vmax); */
 .header-bichectomia,
 .header-gluteoplastia{
   position: relative;
-  height: 80vh;
+  height: 70vh;
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
