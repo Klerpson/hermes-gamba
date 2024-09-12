@@ -44,12 +44,15 @@
 }
 
 .toggle{
+  padding: 2px 4px;
   font-size:30px;
+  line-height: 1;
   cursor:pointer;
   position: fixed;
   top: 24px;
   right: 24px;
-  color: var(--accion);
-  mix-blend-mode: exclusion;
+  color: #fefefe;
   z-index: 100;
+  background: var(--principal);
+  border-radius: 2px;
 }

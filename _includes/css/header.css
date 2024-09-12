@@ -1,31 +1,62 @@
-.header-home{
-  min-height: 70vh;
+.header-home {
+  position: relative;
+  min-height: 70dvh;
   width: 100%;
-  background: url('/img/doctor-hermes-gamba.webp');
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-color: #ffffff70;
+  overflow: hidden;
 }
 
-@keyframes moveLight {
+.header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation: zoom 10s infinite ease-in-out;
+          animation: zoom 10s infinite ease-in-out;
+  z-index: -1;
+}
+
+@-webkit-keyframes zoom {
   0% {
-    background-position: 0% 50%;
+    transform: scale(1);
   }
   50% {
-    background-position: 100% 50%;
+    transform: scale(1.05);
   }
   100% {
-    background-position: 0% 50%;
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
 .header-home div{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 2em;
-  padding: 2em;
+  padding: 4em 2em;
   color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 991px ) {
+  .header-home div{
+    text-align: left;
+    align-items: flex-start;
+  }
 }
 
 .header-home div p{
@@ -33,7 +64,7 @@
   width: min(100%, 600px);
 }
 
-.header-home img{
+.header-home div > img{
   width: min(100%, 600px);
 }
 
@@ -73,7 +104,7 @@
 .header-bichectomia,
 .header-gluteoplastia{
   position: relative;
-  height: 70vh;
+  min-height: 70dvh;
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,10 +121,10 @@
 .header-bichectomia > div,
 .header-gluteoplastia > div{
   position: relative;
-  background-color: rgba(120, 166, 207, 0.756);
+  background-color: rgba(120, 166, 207, 0.90);
   z-index: 2;
   width: 100%;
-  height: 100%;
+  min-height: 70dvh;
   display: grid;
   place-items: center;
 }

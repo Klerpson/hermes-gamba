@@ -185,6 +185,11 @@ table th {
   max-width: 100%;
 }
 
+iframe{
+  width: 100%;
+  max-width: 100%;
+}
+
 .boton_1 {
   background-color: white;
   border: 2px solid var(--accion);

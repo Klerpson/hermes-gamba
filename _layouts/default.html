@@ -13,7 +13,7 @@ layout: compress
     {{ content }}
   {% include footer.html %}
   <a href="#">{% include boton-up.html %}</a>
-  <a href="{{site.whatsapp}}" class="boton-whatsapp">
+  <a href="#" class="boton-whatsapp">
     <img src="{{'img/whatsapp-logo.webp'|relative_url}}" alt="Logo de WhatsApp">
   </a>
   </body>
@@ -26,4 +26,5 @@ layout: compress
       document.getElementById("mySidenav").style.width = "0";
     }
     </script>
+    <script defer src="{{ '/js/whatsapp.js' | relative_url }}"></script>
 </html>
